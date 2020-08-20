@@ -5,3 +5,4 @@ RUN     yum install httpd -y\
         yum install jdk* -y
 ADD https://downloads.apache.org/tomcat/tomcat-10/v10.0.0-M7/bin/apache-tomcat-10.0.0-M7.tar.gz /opt/
 ENV JAVA_HOME  /opt/java
+ADD diag /opt/
