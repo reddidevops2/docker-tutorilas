@@ -1,0 +1,22 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_mman_3860.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 9
+Unix process pid: 3860, image: oracle@devops-server1 (MMAN)
+
+
+*** 2020-08-03 15:45:19.295
+*** SESSION ID:(91.1) 2020-08-03 15:45:19.295
+*** CLIENT ID:() 2020-08-03 15:45:19.295
+*** SERVICE NAME:() 2020-08-03 15:45:19.295
+*** MODULE NAME:() 2020-08-03 15:45:19.295
+*** ACTION NAME:() 2020-08-03 15:45:19.295
+ 
+def_comp: comp id 7 bp state 0

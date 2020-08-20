@@ -1,0 +1,70 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_dbrm_4058.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 1
+Oracle process number: 7
+Unix process pid: 4058, image: oracle@devops-server1 (DBRM)
+
+
+*** 2020-08-03 15:45:58.848
+*** SESSION ID:(90.1) 2020-08-03 15:45:58.848
+*** CLIENT ID:() 2020-08-03 15:45:58.848
+*** SERVICE NAME:() 2020-08-03 15:45:58.848
+*** MODULE NAME:() 2020-08-03 15:45:58.848
+*** ACTION NAME:() 2020-08-03 15:45:58.848
+ 
+kgsksysstop: blocking mode (2) timestamp: 1596469558847907
+kgsksysstop: successful
+kgskreset: Threshold setting[numa_pg(0)]
+Threshold low[0] = 1, high[0] = 3
+kgsksysresume: successful
+   
+****************************************************
+RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+****************************************************
+type: PLAN, Name: INTERNAL_PLAN_XE, number of directives: 2, bit mask: 0x3
+policy index: 0, inst state index: 0, plan id: 1
+ 
+Data from Management module:
+----------------------------
+Plan Parameters:
+   <None>
+Plan Directives:
+     [1] Plan Directive Parameters:
+        Directive name: MGMT_P1, value: 100
+     Directive:
+          type: CONSUMER GROUP, Name: OTHER_GROUPS (addr: 0x9f869330)
+          policy index: 0, inst state index: 0, class num: 0x1
+          mast: INFINITE, ASL qtout: INFINITE, PQQ qtout: INFINITE, mdop: INFINITE
+          Statistics:
+             current queued threads: 0,
+             class total time: 0 msec, penalty # 0
+             total threads: 0
+             total CPU yields: 0
+             total CPU wait: 0 msec
+             total IO wait: 0 msec
+          Class Parameters:
+             <None>
+   
+     [2] Plan Directive Parameters:
+        Directive name: MGMT_B0, value: 90
+     Directive:
+          type: CONSUMER GROUP, Name: _ORACLE_BACKGROUND_GROUP_ (addr: 0x9f856170)
+          policy index: 0, inst state index: 1, class num: 0x2
+          mast: INFINITE, ASL qtout: INFINITE, PQQ qtout: INFINITE, mdop: INFINITE
+          Statistics:
+             current queued threads: 0,
+             class total time: 0 msec, penalty # 0
+             total threads: 15
+             total CPU yields: 0
+             total CPU wait: 0 msec
+             total IO wait: 0 msec
+          Class Parameters:
+             <None>
+   

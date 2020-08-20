@@ -1,0 +1,52 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_ora_2326.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 1
+Oracle process number: 22
+Unix process pid: 2326, image: oracle@devops-server1 (TNS V1-V3)
+
+
+*** 2020-08-07 10:31:58.949
+*** SESSION ID:(9.3) 2020-08-07 10:31:58.949
+*** CLIENT ID:() 2020-08-07 10:31:58.949
+*** SERVICE NAME:(SYS$USERS) 2020-08-07 10:31:58.949
+*** MODULE NAME:(sqlplus@devops-server1 (TNS V1-V3)) 2020-08-07 10:31:58.949
+*** ACTION NAME:() 2020-08-07 10:31:58.949
+ 
+kwqmnich: current time:: 10: 31: 58: 0
+kwqmnich: instance no 0 repartition flag 1 
+kwqmnich: initialized job cache structure 
+kwqinfy: Call kwqrNondurSubInstTsk 
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_ora_2326.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 1
+Oracle process number: 22
+Unix process pid: 2326, image: oracle@devops-server1 (TNS V1-V3)
+
+
+*** 2020-08-20 16:34:39.938
+*** SESSION ID:(9.3) 2020-08-20 16:34:39.938
+*** CLIENT ID:() 2020-08-20 16:34:39.938
+*** SERVICE NAME:(SYS$USERS) 2020-08-20 16:34:39.938
+*** MODULE NAME:(sqlplus@devops-server1 (TNS V1-V3)) 2020-08-20 16:34:39.938
+*** ACTION NAME:() 2020-08-20 16:34:39.938
+ 
+kwqmnich: current time:: 16: 34: 38: 0
+kwqmnich: instance no 0 repartition flag 1 
+
+*** 2020-08-20 16:34:39.983
+kwqmnich: initialized job cache structure 
+kwqinfy: Call kwqrNondurSubInstTsk 

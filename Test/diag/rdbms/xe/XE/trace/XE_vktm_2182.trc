@@ -1,0 +1,38 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_vktm_2182.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 4
+Unix process pid: 2182, image: oracle@devops-server1 (VKTM)
+
+
+*** 2020-08-07 10:31:50.617
+*** CLIENT ID:() 2020-08-07 10:31:50.617
+*** SERVICE NAME:() 2020-08-07 10:31:50.617
+*** MODULE NAME:() 2020-08-07 10:31:50.617
+*** ACTION NAME:() 2020-08-07 10:31:50.617
+ 
+ksesethighpri: (ksb.c:4235) Failed to elevate VKTM's priority from 0 to 1
+Error Info: Category(-2), Opname(skgdism_create), Loc(sp.c:1564), ErrMsg(Error 0) Dism(-350528878)
+*** SESSION ID:(2.1) 2020-08-07 10:31:50.619
+*** SERVICE NAME:() 2020-08-07 10:31:50.619
+ 
+kstmmainvktm: failed in setting elevated priority
+Verify: SETUID is set on ORADISM and restart the instance
+highres_enabled
+VKTM running at (100ms) precision 
+kstmrmtickcntkeeper: param _dbrm_quantum will not be effective
+
+*** 2020-08-07 10:31:50.619
+[Start] HighResTick = 1596796310619588
+kstmrmtickcnt = 0, ksudbrmseccnt[0] = 1596796310
+[End] HighResTick = 1596797510343263
+
+*** 2020-08-07 10:51:50.343
+kstmrmtickcnt = 11982, ksudbrmseccnt[1198] = 1596797510

@@ -1,0 +1,51 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_mmon_4189.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 1
+Oracle process number: 15
+Unix process pid: 4189, image: oracle@devops-server1 (MMON)
+
+
+*** 2020-08-03 15:46:01.869
+*** SESSION ID:(94.3) 2020-08-03 15:46:01.869
+*** CLIENT ID:() 2020-08-03 15:46:01.869
+*** SERVICE NAME:(SYS$BACKGROUND) 2020-08-03 15:46:01.869
+*** MODULE NAME:() 2020-08-03 15:46:01.869
+*** ACTION NAME:() 2020-08-03 15:46:01.869
+ 
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+
+*** 2020-08-03 15:46:02.324
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+qmixc_xidx_alter_check: [code 1]
+minact-scn master-status: grec-scn:0x0000.000567f6 gmin-scn:0x0000.000567f6 gcalc-scn:0x0000.000567f6
+ktte_monitor_ts: unable to schedule MMON Slave, error 100
+***KELR Apply Log: unable to schedule MMON Slave, error 100

@@ -1,0 +1,50 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_m000_4193.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 1
+Oracle process number: 20
+Unix process pid: 4193, image: oracle@devops-server1 (M000)
+
+
+*** 2020-08-03 15:45:56.738
+*** SESSION ID:(9.5) 2020-08-03 15:45:56.738
+*** CLIENT ID:() 2020-08-03 15:45:56.738
+*** SERVICE NAME:() 2020-08-03 15:45:56.738
+*** MODULE NAME:(MMON_SLAVE) 2020-08-03 15:45:56.738
+*** ACTION NAME:(DDE async action) 2020-08-03 15:45:56.738
+ 
+========= Dump for error ORA 313 (no incident) ========
+----- DDE Action: 'DB_STRUCTURE_INTEGRITY_CHECK' (Async) -----
+dbkh_reactive_run_check: BEGIN
+dbkh_reactive_run_check:; incident_id=0
+dbkh_run_check_internal: BEGIN; check_namep=DB Structure Integrity Check, run_namep=<null>
+dbkh_run_check_internal: BEGIN; timeout=0
+dbkh_run_check_internal: AFTER RUN CREATE; run_id=1
+dbkh_create_finding: BEGIN
+dbkhu_prepare_default_msgobj: BEGIN
+dbkhu_prepare_default_msgobj:; name_id=4, type=2, flags=1
+dbkhu_get_default_msg_def: BEGIN
+dbkhu_get_default_msg_def: END
+dbkhu_prepare_default_msgobj:: MSG PARAMS-1; i=0
+dbkhu_prepare_default_msgobj: END
+dbkhu_prepare_default_msgobj: BEGIN
+dbkhu_prepare_default_msgobj:; name_id=4, type=2, flags=2
+dbkhu_get_default_msg_def: BEGIN
+dbkhu_get_default_msg_def: END
+dbkhu_prepare_default_msgobj:: MSG PARAMS-2; i=0
+dbkhu_prepare_default_msgobj: END
+
+*** 2020-08-03 15:45:57.483
+dbkh_create_finding: END
+cross-check executed
+dbkh_post_process_run: BEGIN
+dbkh_post_process_run: NEW FAILURE COUNT: 1; DBKH_NUM_NEW_FAILURES_CTX(ctxp)=dbkh_post_process_run: END
+dbkh_run_check_internal: END
+dbkh_reactive_run_check: END
+-------------------------------------------------------

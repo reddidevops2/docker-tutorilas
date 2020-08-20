@@ -1,0 +1,1882 @@
+Mon Aug 03 15:45:16 2020
+Starting ORACLE instance (normal)
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Shared memory segment for instance monitoring created
+Picked latch-free SCN scheme 3
+Using LOG_ARCHIVE_DEST_1 parameter default value as USE_DB_RECOVERY_FILE_DEST
+Autotune of undo retention is turned on. 
+IMODE=BR
+ILAT =18
+LICENSE_MAX_USERS = 0
+SYS auditing is disabled
+Starting up:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production.
+Using parameter settings in client-side pfile /u01/app/oracle/product/11.2.0/xe/config/scripts/init.ora on machine devops-server1
+System parameters with non-default values:
+  sessions                 = 172
+  memory_target            = 1G
+  control_files            = "/u01/app/oracle/oradata/XE/control.dbf"
+  compatible               = "11.2.0.0.0"
+  db_recovery_file_dest    = "/u01/app/oracle/fast_recovery_area"
+  db_recovery_file_dest_size= 10G
+  undo_management          = "AUTO"
+  undo_tablespace          = "UNDOTBS1"
+  remote_login_passwordfile= "EXCLUSIVE"
+  dispatchers              = "(PROTOCOL=TCP) (SERVICE=XEXDB)"
+  shared_servers           = 4
+  job_queue_processes      = 4
+  audit_file_dest          = "/u01/app/oracle/admin/XE/adump"
+  db_name                  = "XE"
+  open_cursors             = 300
+  diagnostic_dest          = "/u01/app/oracle"
+Mon Aug 03 15:45:17 2020
+PMON started with pid=2, OS id=3844 
+Mon Aug 03 15:45:17 2020
+PSP0 started with pid=3, OS id=3846 
+Mon Aug 03 15:45:18 2020
+VKTM started with pid=4, OS id=3848 
+VKTM running at (100ms) precision 
+Mon Aug 03 15:45:18 2020
+GEN0 started with pid=5, OS id=3852 
+Mon Aug 03 15:45:18 2020
+DIAG started with pid=6, OS id=3854 
+Mon Aug 03 15:45:18 2020
+DBRM started with pid=7, OS id=3856 
+Mon Aug 03 15:45:18 2020
+DIA0 started with pid=8, OS id=3858 
+Mon Aug 03 15:45:18 2020
+MMAN started with pid=9, OS id=3860 
+Mon Aug 03 15:45:18 2020
+DBW0 started with pid=10, OS id=3862 
+Mon Aug 03 15:45:18 2020
+LGWR started with pid=11, OS id=3864 
+Mon Aug 03 15:45:18 2020
+CKPT started with pid=12, OS id=3866 
+Mon Aug 03 15:45:18 2020
+SMON started with pid=13, OS id=3868 
+Mon Aug 03 15:45:18 2020
+RECO started with pid=14, OS id=3870 
+Mon Aug 03 15:45:18 2020
+MMON started with pid=15, OS id=3872 
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+Mon Aug 03 15:45:18 2020
+MMNL started with pid=16, OS id=3874 
+starting up 4 shared server(s) ...
+ORACLE_BASE from environment = /u01/app/oracle
+Mon Aug 03 15:45:18 2020
+kcbztek_populate_tbskey: db key in controlfile and datafile 1 is inconsistent..
+Full restore complete of datafile 3 to datafile copy /u01/app/oracle/oradata/XE/undotbs1.dbf.  Elapsed time: 0:00:01 
+  checkpoint is 353177
+Full restore complete of datafile 4 to datafile copy /u01/app/oracle/oradata/XE/users.dbf.  Elapsed time: 0:00:03 
+  checkpoint is 353177
+Mon Aug 03 15:45:35 2020
+Full restore complete of datafile 1 to datafile copy /u01/app/oracle/oradata/XE/system.dbf.  Elapsed time: 0:00:17 
+  checkpoint is 353177
+Mon Aug 03 15:45:46 2020
+Full restore complete of datafile 2 to datafile copy /u01/app/oracle/oradata/XE/sysaux.dbf.  Elapsed time: 0:00:28 
+  checkpoint is 353177
+Mon Aug 03 15:45:46 2020
+Create controlfile reuse set database "XE"
+MAXINSTANCES 8
+MAXLOGHISTORY 1
+MAXLOGFILES 16
+MAXLOGMEMBERS 3
+MAXDATAFILES 100
+Datafile
+'/u01/app/oracle/oradata/XE/system.dbf',
+'/u01/app/oracle/oradata/XE/undotbs1.dbf',
+'/u01/app/oracle/oradata/XE/sysaux.dbf',
+'/u01/app/oracle/oradata/XE/users.dbf'
+LOGFILE
+GROUP 1 SIZE 51200K,
+GROUP 2 SIZE 51200K,
+RESETLOGS
+WARNING: Default Temporary Tablespace not specified in CREATE DATABASE command
+Default Temporary Tablespace will be necessary for a locally managed database in future release
+Mon Aug 03 15:45:46 2020
+Successful mount of redo thread 1, with mount id 2928627178
+Completed: Create controlfile reuse set database "XE"
+MAXINSTANCES 8
+MAXLOGHISTORY 1
+MAXLOGFILES 16
+MAXLOGMEMBERS 3
+MAXDATAFILES 100
+Datafile
+'/u01/app/oracle/oradata/XE/system.dbf',
+'/u01/app/oracle/oradata/XE/undotbs1.dbf',
+'/u01/app/oracle/oradata/XE/sysaux.dbf',
+'/u01/app/oracle/oradata/XE/users.dbf'
+LOGFILE
+GROUP 1 SIZE 51200K,
+GROUP 2 SIZE 51200K,
+RESETLOGS
+Shutting down instance (immediate)
+Shutting down instance: further logons disabled
+Stopping background process MMNL
+Stopping background process MMON
+License high water mark = 1
+All dispatchers and shared servers shutdown
+ALTER DATABASE CLOSE NORMAL
+ORA-1109 signalled during: ALTER DATABASE CLOSE NORMAL...
+ALTER DATABASE DISMOUNT
+Completed: ALTER DATABASE DISMOUNT
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+Mon Aug 03 15:45:50 2020
+Stopping background process VKTM
+Mon Aug 03 15:45:52 2020
+Instance shutdown complete
+Mon Aug 03 15:45:52 2020
+Starting ORACLE instance (normal)
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Picked latch-free SCN scheme 3
+Using LOG_ARCHIVE_DEST_1 parameter default value as USE_DB_RECOVERY_FILE_DEST
+Autotune of undo retention is turned on. 
+IMODE=BR
+ILAT =18
+LICENSE_MAX_USERS = 0
+SYS auditing is disabled
+Starting up:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production.
+Using parameter settings in client-side pfile /u01/app/oracle/product/11.2.0/xe/config/scripts/initXETemp.ora on machine devops-server1
+System parameters with non-default values:
+  sessions                 = 172
+  memory_target            = 1G
+  control_files            = "/u01/app/oracle/oradata/XE/control.dbf"
+  compatible               = "11.2.0.0.0"
+  db_recovery_file_dest    = "/u01/app/oracle/fast_recovery_area"
+  db_recovery_file_dest_size= 10G
+  _no_recovery_through_resetlogs= TRUE
+  undo_management          = "AUTO"
+  undo_tablespace          = "UNDOTBS1"
+  remote_login_passwordfile= "EXCLUSIVE"
+  dispatchers              = "(PROTOCOL=TCP) (SERVICE=XEXDB)"
+  audit_file_dest          = "/u01/app/oracle/admin/XE/adump"
+  db_name                  = "XE"
+  open_cursors             = 300
+  diagnostic_dest          = "/u01/app/oracle"
+Mon Aug 03 15:45:53 2020
+PMON started with pid=2, OS id=4046 
+Mon Aug 03 15:45:53 2020
+PSP0 started with pid=3, OS id=4048 
+Mon Aug 03 15:45:54 2020
+VKTM started with pid=4, OS id=4050 
+VKTM running at (100ms) precision 
+Mon Aug 03 15:45:54 2020
+GEN0 started with pid=5, OS id=4054 
+Mon Aug 03 15:45:54 2020
+DIAG started with pid=6, OS id=4056 
+Mon Aug 03 15:45:54 2020
+DBRM started with pid=7, OS id=4058 
+Mon Aug 03 15:45:54 2020
+DIA0 started with pid=8, OS id=4060 
+Mon Aug 03 15:45:54 2020
+MMAN started with pid=9, OS id=4062 
+Mon Aug 03 15:45:54 2020
+DBW0 started with pid=10, OS id=4064 
+Mon Aug 03 15:45:54 2020
+LGWR started with pid=11, OS id=4066 
+Mon Aug 03 15:45:54 2020
+CKPT started with pid=12, OS id=4068 
+Mon Aug 03 15:45:54 2020
+SMON started with pid=13, OS id=4070 
+Mon Aug 03 15:45:54 2020
+RECO started with pid=14, OS id=4072 
+Mon Aug 03 15:45:54 2020
+MMON started with pid=15, OS id=4074 
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+Mon Aug 03 15:45:54 2020
+MMNL started with pid=16, OS id=4076 
+starting up 1 shared server(s) ...
+ORACLE_BASE from environment = /u01/app/oracle
+Mon Aug 03 15:45:54 2020
+Create controlfile reuse set database "XE"
+MAXINSTANCES 8
+MAXLOGHISTORY 1
+MAXLOGFILES 16
+MAXLOGMEMBERS 3
+MAXDATAFILES 100
+Datafile
+'/u01/app/oracle/oradata/XE/system.dbf',
+'/u01/app/oracle/oradata/XE/undotbs1.dbf',
+'/u01/app/oracle/oradata/XE/sysaux.dbf',
+'/u01/app/oracle/oradata/XE/users.dbf'
+LOGFILE
+GROUP 1 SIZE 51200K,
+GROUP 2 SIZE 51200K,
+RESETLOGS
+WARNING: Default Temporary Tablespace not specified in CREATE DATABASE command
+Default Temporary Tablespace will be necessary for a locally managed database in future release
+Successful mount of redo thread 1, with mount id 2928627442
+Completed: Create controlfile reuse set database "XE"
+MAXINSTANCES 8
+MAXLOGHISTORY 1
+MAXLOGFILES 16
+MAXLOGMEMBERS 3
+MAXDATAFILES 100
+Datafile
+'/u01/app/oracle/oradata/XE/system.dbf',
+'/u01/app/oracle/oradata/XE/undotbs1.dbf',
+'/u01/app/oracle/oradata/XE/sysaux.dbf',
+'/u01/app/oracle/oradata/XE/users.dbf'
+LOGFILE
+GROUP 1 SIZE 51200K,
+GROUP 2 SIZE 51200K,
+RESETLOGS
+Stopping background process MMNL
+Stopping background process MMON
+Starting background process MMON
+Starting background process MMNL
+Mon Aug 03 15:45:56 2020
+MMON started with pid=15, OS id=4189 
+ALTER SYSTEM enable restricted session;
+Mon Aug 03 15:45:56 2020
+MMNL started with pid=16, OS id=4191 
+alter database "XE" open resetlogs
+RESETLOGS after incomplete recovery UNTIL CHANGE 353177
+Errors in file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_ora_4083.trc:
+ORA-00313: open failed for members of log group 1 of thread 1
+Clearing online redo logfile 1 /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_1_%u_.log
+Clearing online log 1 of thread 1 sequence number 0
+Errors in file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_ora_4083.trc:
+ORA-00313: open failed for members of log group 1 of thread 1
+Errors in file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_ora_4083.trc:
+ORA-00313: open failed for members of log group 1 of thread 1
+Clearing online redo logfile 1 complete
+Errors in file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_ora_4083.trc:
+ORA-00313: open failed for members of log group 2 of thread 1
+Clearing online redo logfile 2 /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_2_%u_.log
+Clearing online log 2 of thread 1 sequence number 0
+Errors in file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_ora_4083.trc:
+ORA-00313: open failed for members of log group 2 of thread 1
+Errors in file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_ora_4083.trc:
+ORA-00313: open failed for members of log group 2 of thread 1
+Clearing online redo logfile 2 complete
+Errors in file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_ora_4083.trc:
+ORA-00313: open failed for members of log group 3 of thread 1
+Clearing online redo logfile 3 /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_0_%u_.log
+Clearing online log 3 of thread 1 sequence number 0
+Errors in file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_ora_4083.trc:
+ORA-00313: open failed for members of log group 3 of thread 1
+Errors in file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_ora_4083.trc:
+ORA-00313: open failed for members of log group 3 of thread 1
+Mon Aug 03 15:45:57 2020
+Checker run found 1 new persistent data failures
+Clearing online redo logfile 3 complete
+Online log /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_1_hljd9npq_.log: Thread 1 Group 1 was previously cleared
+Online log /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_2_hljd9o1s_.log: Thread 1 Group 2 was previously cleared
+Online log /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_3_hljd9ohf_.log: Thread 1 Group 3 was previously cleared
+Setting recovery target incarnation to 2
+Assigning activation ID 2928627442 (0xae8f4ef2)
+Thread 1 opened at log sequence 1
+  Current log# 1 seq# 1 mem# 0: /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_1_hljd9npq_.log
+Successful open of redo thread 1
+SMON: enabling cache recovery
+[4083] Successfully onlined Undo Tablespace 2.
+Undo initialization finished serial:0 start:1755904 end:1755924 diff:20 (0 seconds)
+Dictionary check beginning
+Tablespace 'TEMP' #3 found in data dictionary,
+but not in the controlfile. Adding to controlfile.
+Dictionary check complete
+Verifying file header compatibility for 11g tablespace encryption..
+Verifying 11g file header compatibility for tablespace encryption completed
+SMON: enabling tx recovery
+*********************************************************************
+WARNING: The following temporary tablespaces contain no files.
+         This condition can occur when a backup controlfile has
+         been restored.  It may be necessary to add files to these
+         tablespaces.  That can be done using the SQL statement:
+ 
+         ALTER TABLESPACE <tablespace_name> ADD TEMPFILE
+ 
+         Alternatively, if these temporary tablespaces are no longer
+         needed, then they can be dropped.
+           Empty temporary tablespace: TEMP
+*********************************************************************
+Updating character set in controlfile to AL32UTF8
+Create Relation IPS_PACKAGE_UNPACK_HISTORY
+Opening with Resource Manager plan: INTERNAL_PLAN_XE 
+Starting background process VKRM
+Mon Aug 03 15:45:58 2020
+VKRM started with pid=20, OS id=4197 
+**********************************************************
+WARNING: Files may exists in db_recovery_file_dest
+that are not known to the database. Use the RMAN command
+CATALOG RECOVERY AREA to re-catalog any such files.
+If files cannot be cataloged, then manually delete them
+using OS command.
+One of the following events caused this:
+1. A backup controlfile was restored.
+2. A standby controlfile was restored.
+3. The controlfile was re-created.
+4. db_recovery_file_dest had previously been enabled and
+   then disabled.
+**********************************************************
+replication_dependency_tracking turned off (no async multimaster replication found)
+Starting background process QMNC
+Mon Aug 03 15:45:58 2020
+QMNC started with pid=21, OS id=4199 
+LOGSTDBY: Validating controlfile with logical metadata
+LOGSTDBY: Validation complete
+Global Name changed to XE
+Completed: alter database "XE" open resetlogs
+alter database rename global_name to "XE"
+Completed: alter database rename global_name to "XE"
+Thread 1 advanced to log sequence 2 (LGWR switch)
+  Current log# 2 seq# 2 mem# 0: /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_2_hljd9o1s_.log
+alter database drop logfile group 3
+Deleted Oracle managed file /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_3_hljd9ohf_.log
+Completed: alter database drop logfile group 3
+ALTER TABLESPACE TEMP ADD TEMPFILE '/u01/app/oracle/oradata/XE/temp.dbf' SIZE 20480K REUSE AUTOEXTEND ON NEXT 640K MAXSIZE UNLIMITED
+Completed: ALTER TABLESPACE TEMP ADD TEMPFILE '/u01/app/oracle/oradata/XE/temp.dbf' SIZE 20480K REUSE AUTOEXTEND ON NEXT 640K MAXSIZE UNLIMITED
+ALTER SYSTEM disable restricted session;
+Starting background process CJQ0
+Mon Aug 03 15:46:01 2020
+CJQ0 started with pid=22, OS id=4203 
+Mon Aug 03 15:46:02 2020
+db_recovery_file_dest_size of 10240 MB is 0.98% used. This is a
+user-specified limit on the amount of space that will be used by this
+database for recovery-related files, and does not reflect the amount of
+space available in the underlying filesystem or ASM diskgroup.
+Mon Aug 03 15:46:04 2020
+Errors in file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_j000_4229.trc:
+ORA-12012: error on auto execute of job "SYS"."BSLN_MAINTAIN_STATS_JOB"
+ORA-06550: line 1, column 807:
+PLS-00201: identifier 'DBSNMP.BSLN_INTERNAL' must be declared
+ORA-06550: line 1, column 807:
+PL/SQL: Statement ignored
+Mon Aug 03 15:46:08 2020
+XDB installed.
+XDB initialized.
+Shutting down instance (immediate)
+Shutting down instance: further logons disabled
+Mon Aug 03 15:46:14 2020
+Stopping background process CJQ0
+Stopping background process QMNC
+Stopping background process MMNL
+Stopping background process MMON
+License high water mark = 5
+Stopping Job queue slave processes, flags = 7
+Job queue slave processes stopped
+All dispatchers and shared servers shutdown
+ALTER DATABASE CLOSE NORMAL
+Mon Aug 03 15:46:17 2020
+SMON: disabling tx recovery
+SMON: disabling cache recovery
+Mon Aug 03 15:46:17 2020
+Shutting down archive processes
+Archiving is disabled
+Archive process shutdown avoided: 0 active
+Thread 1 closed at log sequence 2
+Successful close of redo thread 1
+Completed: ALTER DATABASE CLOSE NORMAL
+ALTER DATABASE DISMOUNT
+Completed: ALTER DATABASE DISMOUNT
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+Mon Aug 03 15:46:18 2020
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+Mon Aug 03 15:46:18 2020
+Stopping background process VKTM
+Mon Aug 03 15:46:21 2020
+Instance shutdown complete
+Mon Aug 03 15:46:21 2020
+Starting ORACLE instance (normal)
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Picked latch-free SCN scheme 3
+Using LOG_ARCHIVE_DEST_1 parameter default value as USE_DB_RECOVERY_FILE_DEST
+Autotune of undo retention is turned on. 
+IMODE=BR
+ILAT =18
+LICENSE_MAX_USERS = 0
+SYS auditing is disabled
+Starting up:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production.
+Using parameter settings in server-side spfile /u01/app/oracle/product/11.2.0/xe/dbs/spfileXE.ora
+System parameters with non-default values:
+  sessions                 = 172
+  memory_target            = 1G
+  control_files            = "/u01/app/oracle/oradata/XE/control.dbf"
+  compatible               = "11.2.0.0.0"
+  db_recovery_file_dest    = "/u01/app/oracle/fast_recovery_area"
+  db_recovery_file_dest_size= 10G
+  undo_management          = "AUTO"
+  undo_tablespace          = "UNDOTBS1"
+  remote_login_passwordfile= "EXCLUSIVE"
+  dispatchers              = "(PROTOCOL=TCP) (SERVICE=XEXDB)"
+  shared_servers           = 4
+  job_queue_processes      = 4
+  audit_file_dest          = "/u01/app/oracle/admin/XE/adump"
+  db_name                  = "XE"
+  open_cursors             = 300
+  diagnostic_dest          = "/u01/app/oracle"
+Mon Aug 03 15:46:22 2020
+PMON started with pid=2, OS id=4293 
+Mon Aug 03 15:46:22 2020
+PSP0 started with pid=3, OS id=4295 
+Mon Aug 03 15:46:23 2020
+VKTM started with pid=4, OS id=4299 
+VKTM running at (100ms) precision 
+Mon Aug 03 15:46:23 2020
+GEN0 started with pid=5, OS id=4303 
+Mon Aug 03 15:46:23 2020
+DIAG started with pid=6, OS id=4305 
+Mon Aug 03 15:46:23 2020
+DBRM started with pid=7, OS id=4307 
+Mon Aug 03 15:46:23 2020
+DIA0 started with pid=8, OS id=4309 
+Mon Aug 03 15:46:23 2020
+MMAN started with pid=9, OS id=4311 
+Mon Aug 03 15:46:23 2020
+DBW0 started with pid=10, OS id=4313 
+Mon Aug 03 15:46:23 2020
+LGWR started with pid=11, OS id=4315 
+Mon Aug 03 15:46:23 2020
+CKPT started with pid=12, OS id=4317 
+Mon Aug 03 15:46:23 2020
+SMON started with pid=13, OS id=4319 
+Mon Aug 03 15:46:23 2020
+RECO started with pid=14, OS id=4321 
+Mon Aug 03 15:46:23 2020
+MMON started with pid=15, OS id=4323 
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+Mon Aug 03 15:46:23 2020
+MMNL started with pid=16, OS id=4325 
+starting up 4 shared server(s) ...
+ORACLE_BASE from environment = /u01/app/oracle
+Mon Aug 03 15:46:23 2020
+ALTER DATABASE   MOUNT
+Changing di2dbun from  to XE
+Successful mount of redo thread 1, with mount id 2928610575
+Database mounted in Exclusive Mode
+Lost write protection disabled
+Completed: ALTER DATABASE   MOUNT
+Mon Aug 03 15:46:27 2020
+ALTER DATABASE OPEN
+Thread 1 opened at log sequence 2
+  Current log# 2 seq# 2 mem# 0: /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_2_hljd9o1s_.log
+Successful open of redo thread 1
+SMON: enabling cache recovery
+[4443] Successfully onlined Undo Tablespace 2.
+Undo initialization finished serial:0 start:1785184 end:1785204 diff:20 (0 seconds)
+Verifying file header compatibility for 11g tablespace encryption..
+Verifying 11g file header compatibility for tablespace encryption completed
+SMON: enabling tx recovery
+Database Characterset is AL32UTF8
+Opening with Resource Manager plan: INTERNAL_PLAN_XE 
+Starting background process VKRM
+Mon Aug 03 15:46:27 2020
+VKRM started with pid=23, OS id=4445 
+replication_dependency_tracking turned off (no async multimaster replication found)
+Starting background process QMNC
+Mon Aug 03 15:46:27 2020
+QMNC started with pid=24, OS id=4447 
+Completed: ALTER DATABASE OPEN
+Mon Aug 03 15:46:28 2020
+db_recovery_file_dest_size of 10240 MB is 0.98% used. This is a
+user-specified limit on the amount of space that will be used by this
+database for recovery-related files, and does not reflect the amount of
+space available in the underlying filesystem or ASM diskgroup.
+Starting background process CJQ0
+Mon Aug 03 15:46:28 2020
+CJQ0 started with pid=25, OS id=4461 
+Mon Aug 03 15:52:35 2020
+Starting ORACLE instance (normal)
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Picked latch-free SCN scheme 3
+Using LOG_ARCHIVE_DEST_1 parameter default value as USE_DB_RECOVERY_FILE_DEST
+Autotune of undo retention is turned on. 
+IMODE=BR
+ILAT =18
+LICENSE_MAX_USERS = 0
+SYS auditing is disabled
+Starting up:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production.
+Using parameter settings in server-side spfile /u01/app/oracle/product/11.2.0/xe/dbs/spfileXE.ora
+System parameters with non-default values:
+  sessions                 = 172
+  memory_target            = 1G
+  control_files            = "/u01/app/oracle/oradata/XE/control.dbf"
+  compatible               = "11.2.0.0.0"
+  db_recovery_file_dest    = "/u01/app/oracle/fast_recovery_area"
+  db_recovery_file_dest_size= 10G
+  undo_management          = "AUTO"
+  undo_tablespace          = "UNDOTBS1"
+  remote_login_passwordfile= "EXCLUSIVE"
+  dispatchers              = "(PROTOCOL=TCP) (SERVICE=XEXDB)"
+  shared_servers           = 4
+  job_queue_processes      = 4
+  audit_file_dest          = "/u01/app/oracle/admin/XE/adump"
+  db_name                  = "XE"
+  open_cursors             = 300
+  diagnostic_dest          = "/u01/app/oracle"
+Mon Aug 03 15:52:38 2020
+PMON started with pid=2, OS id=4277 
+Mon Aug 03 15:52:38 2020
+PSP0 started with pid=3, OS id=4289 
+Mon Aug 03 15:52:38 2020
+VKTM started with pid=4, OS id=4302 
+VKTM running at (100ms) precision 
+Mon Aug 03 15:52:38 2020
+GEN0 started with pid=5, OS id=4325 
+Mon Aug 03 15:52:38 2020
+DIAG started with pid=6, OS id=4337 
+Mon Aug 03 15:52:38 2020
+DBRM started with pid=7, OS id=4350 
+Mon Aug 03 15:52:38 2020
+DIA0 started with pid=8, OS id=4365 
+Mon Aug 03 15:52:38 2020
+MMAN started with pid=9, OS id=4378 
+Mon Aug 03 15:52:38 2020
+DBW0 started with pid=10, OS id=4393 
+Mon Aug 03 15:52:38 2020
+LGWR started with pid=11, OS id=4408 
+Mon Aug 03 15:52:38 2020
+CKPT started with pid=12, OS id=4423 
+Mon Aug 03 15:52:38 2020
+SMON started with pid=13, OS id=4437 
+Mon Aug 03 15:52:38 2020
+RECO started with pid=14, OS id=4452 
+Mon Aug 03 15:52:38 2020
+MMON started with pid=15, OS id=4466 
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+Mon Aug 03 15:52:38 2020
+MMNL started with pid=16, OS id=4479 
+starting up 4 shared server(s) ...
+ORACLE_BASE from environment = /u01/app/oracle
+Mon Aug 03 15:52:38 2020
+ALTER DATABASE   MOUNT
+Successful mount of redo thread 1, with mount id 2928613766
+Database mounted in Exclusive Mode
+Lost write protection disabled
+Completed: ALTER DATABASE   MOUNT
+Mon Aug 03 15:52:43 2020
+ALTER DATABASE OPEN
+Beginning crash recovery of 1 threads
+Started redo scan
+Completed redo scan
+ read 397 KB redo, 134 data blocks need recovery
+Started redo application at
+ Thread 1: logseq 2, block 3476
+Recovery of Online Redo Log: Thread 1 Group 2 Seq 2 Reading mem 0
+  Mem# 0: /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_2_hljd9o1s_.log
+Completed redo application of 0.29MB
+Completed crash recovery at
+ Thread 1: logseq 2, block 4270, scn 375682
+ 134 data blocks read, 134 data blocks written, 397 redo k-bytes read
+Thread 1 advanced to log sequence 3 (thread open)
+Thread 1 opened at log sequence 3
+  Current log# 1 seq# 3 mem# 0: /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_1_hljd9npq_.log
+Successful open of redo thread 1
+SMON: enabling cache recovery
+[7058] Successfully onlined Undo Tablespace 2.
+Undo initialization finished serial:0 start:4294704570 end:4294704910 diff:340 (3 seconds)
+Verifying file header compatibility for 11g tablespace encryption..
+Verifying 11g file header compatibility for tablespace encryption completed
+SMON: enabling tx recovery
+Database Characterset is AL32UTF8
+Opening with Resource Manager plan: INTERNAL_PLAN_XE 
+Starting background process VKRM
+Mon Aug 03 15:52:46 2020
+VKRM started with pid=23, OS id=8303 
+replication_dependency_tracking turned off (no async multimaster replication found)
+Starting background process QMNC
+Mon Aug 03 15:52:47 2020
+QMNC started with pid=24, OS id=8306 
+Completed: ALTER DATABASE OPEN
+Mon Aug 03 15:52:50 2020
+Starting background process CJQ0
+Mon Aug 03 15:52:50 2020
+CJQ0 started with pid=27, OS id=8322 
+Mon Aug 03 15:52:50 2020
+db_recovery_file_dest_size of 10240 MB is 0.98% used. This is a
+user-specified limit on the amount of space that will be used by this
+database for recovery-related files, and does not reflect the amount of
+space available in the underlying filesystem or ASM diskgroup.
+Mon Aug 03 15:57:48 2020
+Starting background process SMCO
+Mon Aug 03 15:57:48 2020
+SMCO started with pid=22, OS id=9826 
+Mon Aug 03 16:04:26 2020
+Shutting down instance (immediate)
+Stopping background process SMCO
+Shutting down instance: further logons disabled
+Mon Aug 03 16:04:28 2020
+Stopping background process CJQ0
+Stopping background process QMNC
+Stopping background process MMNL
+Stopping background process MMON
+License high water mark = 4
+All dispatchers and shared servers shutdown
+ALTER DATABASE CLOSE NORMAL
+Mon Aug 03 16:04:31 2020
+SMON: disabling tx recovery
+SMON: disabling cache recovery
+Mon Aug 03 16:04:31 2020
+Shutting down archive processes
+Archiving is disabled
+Archive process shutdown avoided: 0 active
+Thread 1 closed at log sequence 3
+Successful close of redo thread 1
+Completed: ALTER DATABASE CLOSE NORMAL
+ALTER DATABASE DISMOUNT
+Completed: ALTER DATABASE DISMOUNT
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+Mon Aug 03 16:04:32 2020
+Stopping background process VKTM
+Mon Aug 03 16:04:34 2020
+Instance shutdown complete
+Fri Aug 07 05:21:44 2020
+Starting ORACLE instance (normal)
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Picked latch-free SCN scheme 3
+Using LOG_ARCHIVE_DEST_1 parameter default value as USE_DB_RECOVERY_FILE_DEST
+Autotune of undo retention is turned on. 
+IMODE=BR
+ILAT =18
+LICENSE_MAX_USERS = 0
+SYS auditing is disabled
+Starting up:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production.
+Using parameter settings in server-side spfile /u01/app/oracle/product/11.2.0/xe/dbs/spfileXE.ora
+System parameters with non-default values:
+  sessions                 = 172
+  memory_target            = 1G
+  control_files            = "/u01/app/oracle/oradata/XE/control.dbf"
+  compatible               = "11.2.0.0.0"
+  db_recovery_file_dest    = "/u01/app/oracle/fast_recovery_area"
+  db_recovery_file_dest_size= 10G
+  undo_management          = "AUTO"
+  undo_tablespace          = "UNDOTBS1"
+  remote_login_passwordfile= "EXCLUSIVE"
+  dispatchers              = "(PROTOCOL=TCP) (SERVICE=XEXDB)"
+  shared_servers           = 4
+  job_queue_processes      = 4
+  audit_file_dest          = "/u01/app/oracle/admin/XE/adump"
+  db_name                  = "XE"
+  open_cursors             = 300
+  diagnostic_dest          = "/u01/app/oracle"
+Fri Aug 07 05:21:45 2020
+PMON started with pid=2, OS id=2170 
+Fri Aug 07 05:21:45 2020
+PSP0 started with pid=3, OS id=2172 
+Fri Aug 07 05:21:46 2020
+VKTM started with pid=4, OS id=2174 
+VKTM running at (100ms) precision 
+Fri Aug 07 05:21:46 2020
+GEN0 started with pid=5, OS id=2178 
+Fri Aug 07 05:21:46 2020
+DIAG started with pid=6, OS id=2180 
+Fri Aug 07 05:21:46 2020
+DBRM started with pid=7, OS id=2182 
+Fri Aug 07 05:21:46 2020
+DIA0 started with pid=8, OS id=2184 
+Fri Aug 07 05:21:46 2020
+MMAN started with pid=9, OS id=2186 
+Fri Aug 07 05:21:46 2020
+DBW0 started with pid=10, OS id=2188 
+Fri Aug 07 05:21:46 2020
+LGWR started with pid=11, OS id=2190 
+Fri Aug 07 05:21:46 2020
+CKPT started with pid=12, OS id=2192 
+Fri Aug 07 05:21:46 2020
+SMON started with pid=13, OS id=2194 
+Fri Aug 07 05:21:46 2020
+RECO started with pid=14, OS id=2196 
+Fri Aug 07 05:21:46 2020
+MMON started with pid=15, OS id=2199 
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+Fri Aug 07 05:21:46 2020
+MMNL started with pid=16, OS id=2201 
+starting up 4 shared server(s) ...
+ORACLE_BASE from environment = /u01/app/oracle
+Fri Aug 07 05:21:46 2020
+ALTER DATABASE   MOUNT
+Successful mount of redo thread 1, with mount id 2928944298
+Database mounted in Exclusive Mode
+Lost write protection disabled
+Completed: ALTER DATABASE   MOUNT
+Fri Aug 07 05:21:51 2020
+ALTER DATABASE OPEN
+Thread 1 opened at log sequence 3
+  Current log# 1 seq# 3 mem# 0: /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_1_hljd9npq_.log
+Successful open of redo thread 1
+SMON: enabling cache recovery
+[2319] Successfully onlined Undo Tablespace 2.
+Undo initialization finished serial:0 start:4294702040 end:4294702310 diff:270 (2 seconds)
+Verifying file header compatibility for 11g tablespace encryption..
+Verifying 11g file header compatibility for tablespace encryption completed
+SMON: enabling tx recovery
+Database Characterset is AL32UTF8
+Opening with Resource Manager plan: INTERNAL_PLAN_XE 
+Starting background process VKRM
+Fri Aug 07 05:21:53 2020
+VKRM started with pid=23, OS id=2321 
+replication_dependency_tracking turned off (no async multimaster replication found)
+Starting background process QMNC
+Fri Aug 07 05:21:55 2020
+QMNC started with pid=24, OS id=2323 
+Completed: ALTER DATABASE OPEN
+Fri Aug 07 05:21:57 2020
+Starting background process CJQ0
+Fri Aug 07 05:21:57 2020
+CJQ0 started with pid=28, OS id=2341 
+Fri Aug 07 05:21:57 2020
+db_recovery_file_dest_size of 10240 MB is 0.98% used. This is a
+user-specified limit on the amount of space that will be used by this
+database for recovery-related files, and does not reflect the amount of
+space available in the underlying filesystem or ASM diskgroup.
+Fri Aug 07 05:26:55 2020
+Starting background process SMCO
+Fri Aug 07 05:26:55 2020
+SMCO started with pid=22, OS id=2854 
+Fri Aug 07 06:01:45 2020
+Shutting down instance (immediate)
+Stopping background process SMCO
+Shutting down instance: further logons disabled
+Fri Aug 07 06:01:47 2020
+Stopping background process CJQ0
+Stopping background process QMNC
+Stopping background process MMNL
+Stopping background process MMON
+License high water mark = 4
+All dispatchers and shared servers shutdown
+ALTER DATABASE CLOSE NORMAL
+Fri Aug 07 06:01:50 2020
+SMON: disabling tx recovery
+SMON: disabling cache recovery
+Fri Aug 07 06:01:50 2020
+Shutting down archive processes
+Archiving is disabled
+Archive process shutdown avoided: 0 active
+Thread 1 closed at log sequence 3
+Successful close of redo thread 1
+Completed: ALTER DATABASE CLOSE NORMAL
+ALTER DATABASE DISMOUNT
+Completed: ALTER DATABASE DISMOUNT
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+Fri Aug 07 06:01:51 2020
+Stopping background process VKTM
+Fri Aug 07 06:01:53 2020
+Instance shutdown complete
+Fri Aug 07 10:31:48 2020
+Starting ORACLE instance (normal)
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Picked latch-free SCN scheme 3
+Using LOG_ARCHIVE_DEST_1 parameter default value as USE_DB_RECOVERY_FILE_DEST
+Autotune of undo retention is turned on. 
+IMODE=BR
+ILAT =18
+LICENSE_MAX_USERS = 0
+SYS auditing is disabled
+Starting up:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production.
+Using parameter settings in server-side spfile /u01/app/oracle/product/11.2.0/xe/dbs/spfileXE.ora
+System parameters with non-default values:
+  sessions                 = 172
+  memory_target            = 1G
+  control_files            = "/u01/app/oracle/oradata/XE/control.dbf"
+  compatible               = "11.2.0.0.0"
+  db_recovery_file_dest    = "/u01/app/oracle/fast_recovery_area"
+  db_recovery_file_dest_size= 10G
+  undo_management          = "AUTO"
+  undo_tablespace          = "UNDOTBS1"
+  remote_login_passwordfile= "EXCLUSIVE"
+  dispatchers              = "(PROTOCOL=TCP) (SERVICE=XEXDB)"
+  shared_servers           = 4
+  job_queue_processes      = 4
+  audit_file_dest          = "/u01/app/oracle/admin/XE/adump"
+  db_name                  = "XE"
+  open_cursors             = 300
+  diagnostic_dest          = "/u01/app/oracle"
+Fri Aug 07 10:31:49 2020
+PMON started with pid=2, OS id=2177 
+Fri Aug 07 10:31:49 2020
+PSP0 started with pid=3, OS id=2179 
+Fri Aug 07 10:31:50 2020
+VKTM started with pid=4, OS id=2182 
+VKTM running at (100ms) precision 
+Fri Aug 07 10:31:50 2020
+GEN0 started with pid=5, OS id=2186 
+Fri Aug 07 10:31:50 2020
+DIAG started with pid=6, OS id=2188 
+Fri Aug 07 10:31:50 2020
+DBRM started with pid=7, OS id=2190 
+Fri Aug 07 10:31:50 2020
+DIA0 started with pid=8, OS id=2192 
+Fri Aug 07 10:31:50 2020
+MMAN started with pid=9, OS id=2194 
+Fri Aug 07 10:31:50 2020
+DBW0 started with pid=10, OS id=2196 
+Fri Aug 07 10:31:50 2020
+LGWR started with pid=11, OS id=2198 
+Fri Aug 07 10:31:50 2020
+CKPT started with pid=12, OS id=2200 
+Fri Aug 07 10:31:50 2020
+SMON started with pid=13, OS id=2202 
+Fri Aug 07 10:31:50 2020
+RECO started with pid=14, OS id=2204 
+Fri Aug 07 10:31:50 2020
+MMON started with pid=15, OS id=2206 
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+Fri Aug 07 10:31:50 2020
+MMNL started with pid=16, OS id=2208 
+starting up 4 shared server(s) ...
+ORACLE_BASE from environment = /u01/app/oracle
+Fri Aug 07 10:31:50 2020
+ALTER DATABASE   MOUNT
+Successful mount of redo thread 1, with mount id 2928930647
+Database mounted in Exclusive Mode
+Lost write protection disabled
+Completed: ALTER DATABASE   MOUNT
+Fri Aug 07 10:31:55 2020
+ALTER DATABASE OPEN
+Thread 1 opened at log sequence 3
+  Current log# 1 seq# 3 mem# 0: /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_1_hljd9npq_.log
+Successful open of redo thread 1
+SMON: enabling cache recovery
+[2326] Successfully onlined Undo Tablespace 2.
+Undo initialization finished serial:0 start:4294700730 end:4294701070 diff:340 (3 seconds)
+Verifying file header compatibility for 11g tablespace encryption..
+Verifying 11g file header compatibility for tablespace encryption completed
+SMON: enabling tx recovery
+Database Characterset is AL32UTF8
+Opening with Resource Manager plan: INTERNAL_PLAN_XE 
+Starting background process VKRM
+Fri Aug 07 10:31:57 2020
+VKRM started with pid=23, OS id=2328 
+replication_dependency_tracking turned off (no async multimaster replication found)
+Starting background process QMNC
+Fri Aug 07 10:31:59 2020
+QMNC started with pid=24, OS id=2331 
+Completed: ALTER DATABASE OPEN
+Fri Aug 07 10:32:00 2020
+Starting background process CJQ0
+Fri Aug 07 10:32:00 2020
+CJQ0 started with pid=28, OS id=2349 
+Fri Aug 07 10:32:01 2020
+db_recovery_file_dest_size of 10240 MB is 0.98% used. This is a
+user-specified limit on the amount of space that will be used by this
+database for recovery-related files, and does not reflect the amount of
+space available in the underlying filesystem or ASM diskgroup.
+Fri Aug 07 10:36:59 2020
+Starting background process SMCO
+Fri Aug 07 10:36:59 2020
+SMCO started with pid=22, OS id=2417 
+Fri Aug 07 10:51:45 2020
+Shutting down instance (immediate)
+Stopping background process SMCO
+Shutting down instance: further logons disabled
+Stopping background process QMNC
+Fri Aug 07 10:51:46 2020
+Stopping background process CJQ0
+Stopping background process MMNL
+Stopping background process MMON
+License high water mark = 4
+All dispatchers and shared servers shutdown
+ALTER DATABASE CLOSE NORMAL
+Fri Aug 07 10:51:49 2020
+SMON: disabling tx recovery
+SMON: disabling cache recovery
+Fri Aug 07 10:51:49 2020
+Shutting down archive processes
+Archiving is disabled
+Archive process shutdown avoided: 0 active
+Thread 1 closed at log sequence 3
+Successful close of redo thread 1
+Completed: ALTER DATABASE CLOSE NORMAL
+ALTER DATABASE DISMOUNT
+Completed: ALTER DATABASE DISMOUNT
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+Fri Aug 07 10:51:50 2020
+Stopping background process VKTM
+Fri Aug 07 10:51:52 2020
+Instance shutdown complete
+Fri Aug 07 10:52:26 2020
+Starting ORACLE instance (normal)
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Picked latch-free SCN scheme 3
+Using LOG_ARCHIVE_DEST_1 parameter default value as USE_DB_RECOVERY_FILE_DEST
+Autotune of undo retention is turned on. 
+IMODE=BR
+ILAT =18
+LICENSE_MAX_USERS = 0
+SYS auditing is disabled
+Starting up:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production.
+Using parameter settings in server-side spfile /u01/app/oracle/product/11.2.0/xe/dbs/spfileXE.ora
+System parameters with non-default values:
+  sessions                 = 172
+  memory_target            = 1G
+  control_files            = "/u01/app/oracle/oradata/XE/control.dbf"
+  compatible               = "11.2.0.0.0"
+  db_recovery_file_dest    = "/u01/app/oracle/fast_recovery_area"
+  db_recovery_file_dest_size= 10G
+  undo_management          = "AUTO"
+  undo_tablespace          = "UNDOTBS1"
+  remote_login_passwordfile= "EXCLUSIVE"
+  dispatchers              = "(PROTOCOL=TCP) (SERVICE=XEXDB)"
+  shared_servers           = 4
+  job_queue_processes      = 4
+  audit_file_dest          = "/u01/app/oracle/admin/XE/adump"
+  db_name                  = "XE"
+  open_cursors             = 300
+  diagnostic_dest          = "/u01/app/oracle"
+Fri Aug 07 10:52:27 2020
+PMON started with pid=2, OS id=2165 
+Fri Aug 07 10:52:27 2020
+PSP0 started with pid=3, OS id=2167 
+Fri Aug 07 10:52:28 2020
+VKTM started with pid=4, OS id=2169 
+VKTM running at (100ms) precision 
+Fri Aug 07 10:52:28 2020
+GEN0 started with pid=5, OS id=2173 
+Fri Aug 07 10:52:28 2020
+DIAG started with pid=6, OS id=2175 
+Fri Aug 07 10:52:28 2020
+DBRM started with pid=7, OS id=2177 
+Fri Aug 07 10:52:28 2020
+DIA0 started with pid=8, OS id=2179 
+Fri Aug 07 10:52:28 2020
+MMAN started with pid=9, OS id=2181 
+Fri Aug 07 10:52:28 2020
+DBW0 started with pid=10, OS id=2183 
+Fri Aug 07 10:52:28 2020
+LGWR started with pid=11, OS id=2185 
+Fri Aug 07 10:52:28 2020
+CKPT started with pid=12, OS id=2187 
+Fri Aug 07 10:52:28 2020
+SMON started with pid=13, OS id=2189 
+Fri Aug 07 10:52:28 2020
+RECO started with pid=14, OS id=2191 
+Fri Aug 07 10:52:28 2020
+MMON started with pid=15, OS id=2193 
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+Fri Aug 07 10:52:28 2020
+MMNL started with pid=16, OS id=2195 
+starting up 4 shared server(s) ...
+ORACLE_BASE from environment = /u01/app/oracle
+Fri Aug 07 10:52:28 2020
+ALTER DATABASE   MOUNT
+Successful mount of redo thread 1, with mount id 2928949804
+Database mounted in Exclusive Mode
+Lost write protection disabled
+Completed: ALTER DATABASE   MOUNT
+Fri Aug 07 10:52:33 2020
+ALTER DATABASE OPEN
+Thread 1 opened at log sequence 3
+  Current log# 1 seq# 3 mem# 0: /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_1_hljd9npq_.log
+Successful open of redo thread 1
+SMON: enabling cache recovery
+[2313] Successfully onlined Undo Tablespace 2.
+Undo initialization finished serial:0 start:4294702620 end:4294703100 diff:480 (4 seconds)
+Verifying file header compatibility for 11g tablespace encryption..
+Verifying 11g file header compatibility for tablespace encryption completed
+SMON: enabling tx recovery
+Database Characterset is AL32UTF8
+Opening with Resource Manager plan: INTERNAL_PLAN_XE 
+Starting background process VKRM
+Fri Aug 07 10:52:35 2020
+VKRM started with pid=23, OS id=2315 
+replication_dependency_tracking turned off (no async multimaster replication found)
+Starting background process QMNC
+Fri Aug 07 10:52:36 2020
+QMNC started with pid=24, OS id=2336 
+Completed: ALTER DATABASE OPEN
+Fri Aug 07 10:52:38 2020
+Starting background process CJQ0
+Fri Aug 07 10:52:38 2020
+CJQ0 started with pid=28, OS id=2390 
+Fri Aug 07 10:52:39 2020
+db_recovery_file_dest_size of 10240 MB is 0.98% used. This is a
+user-specified limit on the amount of space that will be used by this
+database for recovery-related files, and does not reflect the amount of
+space available in the underlying filesystem or ASM diskgroup.
+Fri Aug 07 10:57:37 2020
+Starting background process SMCO
+Fri Aug 07 10:57:37 2020
+SMCO started with pid=26, OS id=4148 
+Fri Aug 07 14:20:05 2020
+XDB installed.
+XDB initialized.
+Fri Aug 07 16:08:54 2020
+Shared IO Pool defaulting to 104MB. Trying to get it from Buffer Cache for process 2205.
+Fri Aug 07 16:18:14 2020
+Shutting down instance (immediate)
+Stopping background process SMCO
+Shutting down instance: further logons disabled
+Fri Aug 07 16:18:14 2020
+Stopping background process CJQ0
+Stopping background process QMNC
+Stopping background process MMNL
+Stopping background process MMON
+License high water mark = 13
+All dispatchers and shared servers shutdown
+ALTER DATABASE CLOSE NORMAL
+Fri Aug 07 16:18:17 2020
+SMON: disabling tx recovery
+SMON: disabling cache recovery
+Fri Aug 07 16:18:17 2020
+Shutting down archive processes
+Archiving is disabled
+Archive process shutdown avoided: 0 active
+Thread 1 closed at log sequence 3
+Successful close of redo thread 1
+Completed: ALTER DATABASE CLOSE NORMAL
+ALTER DATABASE DISMOUNT
+Completed: ALTER DATABASE DISMOUNT
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+Fri Aug 07 16:18:19 2020
+Stopping background process VKTM
+Fri Aug 07 16:18:21 2020
+Instance shutdown complete
+Sat Aug 08 02:13:29 2020
+Starting ORACLE instance (normal)
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Picked latch-free SCN scheme 3
+Using LOG_ARCHIVE_DEST_1 parameter default value as USE_DB_RECOVERY_FILE_DEST
+Autotune of undo retention is turned on. 
+IMODE=BR
+ILAT =18
+LICENSE_MAX_USERS = 0
+SYS auditing is disabled
+Starting up:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production.
+Using parameter settings in server-side spfile /u01/app/oracle/product/11.2.0/xe/dbs/spfileXE.ora
+System parameters with non-default values:
+  sessions                 = 172
+  memory_target            = 1G
+  control_files            = "/u01/app/oracle/oradata/XE/control.dbf"
+  compatible               = "11.2.0.0.0"
+  db_recovery_file_dest    = "/u01/app/oracle/fast_recovery_area"
+  db_recovery_file_dest_size= 10G
+  undo_management          = "AUTO"
+  undo_tablespace          = "UNDOTBS1"
+  remote_login_passwordfile= "EXCLUSIVE"
+  dispatchers              = "(PROTOCOL=TCP) (SERVICE=XEXDB)"
+  shared_servers           = 4
+  job_queue_processes      = 4
+  audit_file_dest          = "/u01/app/oracle/admin/XE/adump"
+  db_name                  = "XE"
+  open_cursors             = 300
+  diagnostic_dest          = "/u01/app/oracle"
+Sat Aug 08 02:13:30 2020
+PMON started with pid=2, OS id=2202 
+Sat Aug 08 02:13:30 2020
+PSP0 started with pid=3, OS id=2204 
+Sat Aug 08 02:13:31 2020
+VKTM started with pid=4, OS id=2207 
+VKTM running at (100ms) precision 
+Sat Aug 08 02:13:31 2020
+GEN0 started with pid=5, OS id=2211 
+Sat Aug 08 02:13:31 2020
+DIAG started with pid=6, OS id=2213 
+Sat Aug 08 02:13:31 2020
+DBRM started with pid=7, OS id=2215 
+Sat Aug 08 02:13:32 2020
+DIA0 started with pid=8, OS id=2217 
+Sat Aug 08 02:13:32 2020
+MMAN started with pid=9, OS id=2219 
+Sat Aug 08 02:13:32 2020
+DBW0 started with pid=10, OS id=2221 
+Sat Aug 08 02:13:32 2020
+LGWR started with pid=11, OS id=2223 
+Sat Aug 08 02:13:32 2020
+CKPT started with pid=12, OS id=2225 
+Sat Aug 08 02:13:32 2020
+SMON started with pid=13, OS id=2227 
+Sat Aug 08 02:13:32 2020
+RECO started with pid=14, OS id=2229 
+Sat Aug 08 02:13:32 2020
+MMON started with pid=15, OS id=2231 
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+Sat Aug 08 02:13:32 2020
+MMNL started with pid=16, OS id=2233 
+starting up 4 shared server(s) ...
+ORACLE_BASE from environment = /u01/app/oracle
+Sat Aug 08 02:13:32 2020
+ALTER DATABASE   MOUNT
+Successful mount of redo thread 1, with mount id 2928986124
+Database mounted in Exclusive Mode
+Lost write protection disabled
+Completed: ALTER DATABASE   MOUNT
+Sat Aug 08 02:13:36 2020
+ALTER DATABASE OPEN
+Thread 1 opened at log sequence 3
+  Current log# 1 seq# 3 mem# 0: /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_1_hljd9npq_.log
+Successful open of redo thread 1
+SMON: enabling cache recovery
+[2321] Successfully onlined Undo Tablespace 2.
+Undo initialization finished serial:0 start:4294703020 end:4294703360 diff:340 (3 seconds)
+Verifying file header compatibility for 11g tablespace encryption..
+Verifying 11g file header compatibility for tablespace encryption completed
+SMON: enabling tx recovery
+Database Characterset is AL32UTF8
+Opening with Resource Manager plan: INTERNAL_PLAN_XE 
+Starting background process VKRM
+Sat Aug 08 02:13:38 2020
+VKRM started with pid=23, OS id=2324 
+replication_dependency_tracking turned off (no async multimaster replication found)
+Starting background process QMNC
+Sat Aug 08 02:13:40 2020
+QMNC started with pid=24, OS id=2326 
+Completed: ALTER DATABASE OPEN
+Sat Aug 08 02:13:42 2020
+Starting background process CJQ0
+Sat Aug 08 02:13:42 2020
+CJQ0 started with pid=28, OS id=2344 
+Sat Aug 08 02:13:42 2020
+db_recovery_file_dest_size of 10240 MB is 0.98% used. This is a
+user-specified limit on the amount of space that will be used by this
+database for recovery-related files, and does not reflect the amount of
+space available in the underlying filesystem or ASM diskgroup.
+Sat Aug 08 02:18:40 2020
+Starting background process SMCO
+Sat Aug 08 02:18:40 2020
+SMCO started with pid=22, OS id=2471 
+Sat Aug 08 03:41:21 2020
+Shutting down instance (immediate)
+Stopping background process SMCO
+Shutting down instance: further logons disabled
+Sat Aug 08 03:41:22 2020
+Stopping background process CJQ0
+Stopping background process QMNC
+Stopping background process MMNL
+Stopping background process MMON
+License high water mark = 4
+All dispatchers and shared servers shutdown
+ALTER DATABASE CLOSE NORMAL
+Sat Aug 08 03:41:25 2020
+SMON: disabling tx recovery
+SMON: disabling cache recovery
+Sat Aug 08 03:41:25 2020
+Shutting down archive processes
+Archiving is disabled
+Archive process shutdown avoided: 0 active
+Thread 1 closed at log sequence 3
+Successful close of redo thread 1
+Completed: ALTER DATABASE CLOSE NORMAL
+ALTER DATABASE DISMOUNT
+Completed: ALTER DATABASE DISMOUNT
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+Sat Aug 08 03:41:25 2020
+Stopping background process VKTM
+Sat Aug 08 03:41:27 2020
+Instance shutdown complete
+Mon Aug 10 15:34:20 2020
+Starting ORACLE instance (normal)
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Picked latch-free SCN scheme 3
+Using LOG_ARCHIVE_DEST_1 parameter default value as USE_DB_RECOVERY_FILE_DEST
+Autotune of undo retention is turned on. 
+IMODE=BR
+ILAT =18
+LICENSE_MAX_USERS = 0
+SYS auditing is disabled
+Starting up:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production.
+Using parameter settings in server-side spfile /u01/app/oracle/product/11.2.0/xe/dbs/spfileXE.ora
+System parameters with non-default values:
+  sessions                 = 172
+  memory_target            = 1G
+  control_files            = "/u01/app/oracle/oradata/XE/control.dbf"
+  compatible               = "11.2.0.0.0"
+  db_recovery_file_dest    = "/u01/app/oracle/fast_recovery_area"
+  db_recovery_file_dest_size= 10G
+  undo_management          = "AUTO"
+  undo_tablespace          = "UNDOTBS1"
+  remote_login_passwordfile= "EXCLUSIVE"
+  dispatchers              = "(PROTOCOL=TCP) (SERVICE=XEXDB)"
+  shared_servers           = 4
+  job_queue_processes      = 4
+  audit_file_dest          = "/u01/app/oracle/admin/XE/adump"
+  db_name                  = "XE"
+  open_cursors             = 300
+  diagnostic_dest          = "/u01/app/oracle"
+Mon Aug 10 15:34:21 2020
+PMON started with pid=2, OS id=2198 
+Mon Aug 10 15:34:21 2020
+PSP0 started with pid=3, OS id=2200 
+Mon Aug 10 15:34:22 2020
+VKTM started with pid=4, OS id=2203 
+VKTM running at (100ms) precision 
+Mon Aug 10 15:34:22 2020
+GEN0 started with pid=5, OS id=2207 
+Mon Aug 10 15:34:22 2020
+DIAG started with pid=6, OS id=2209 
+Mon Aug 10 15:34:22 2020
+DBRM started with pid=7, OS id=2211 
+Mon Aug 10 15:34:22 2020
+DIA0 started with pid=8, OS id=2213 
+Mon Aug 10 15:34:22 2020
+MMAN started with pid=9, OS id=2215 
+Mon Aug 10 15:34:22 2020
+DBW0 started with pid=10, OS id=2217 
+Mon Aug 10 15:34:22 2020
+LGWR started with pid=11, OS id=2219 
+Mon Aug 10 15:34:22 2020
+CKPT started with pid=12, OS id=2221 
+Mon Aug 10 15:34:22 2020
+SMON started with pid=13, OS id=2223 
+Mon Aug 10 15:34:22 2020
+RECO started with pid=14, OS id=2225 
+Mon Aug 10 15:34:22 2020
+MMON started with pid=15, OS id=2227 
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+Mon Aug 10 15:34:22 2020
+MMNL started with pid=16, OS id=2229 
+starting up 4 shared server(s) ...
+ORACLE_BASE from environment = /u01/app/oracle
+Mon Aug 10 15:34:22 2020
+ALTER DATABASE   MOUNT
+Successful mount of redo thread 1, with mount id 2929196478
+Database mounted in Exclusive Mode
+Lost write protection disabled
+Completed: ALTER DATABASE   MOUNT
+Mon Aug 10 15:34:27 2020
+ALTER DATABASE OPEN
+Thread 1 opened at log sequence 3
+  Current log# 1 seq# 3 mem# 0: /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_1_hljd9npq_.log
+Successful open of redo thread 1
+SMON: enabling cache recovery
+[2320] Successfully onlined Undo Tablespace 2.
+Undo initialization finished serial:0 start:4294702400 end:4294702750 diff:350 (3 seconds)
+Verifying file header compatibility for 11g tablespace encryption..
+Verifying 11g file header compatibility for tablespace encryption completed
+SMON: enabling tx recovery
+Database Characterset is AL32UTF8
+Opening with Resource Manager plan: INTERNAL_PLAN_XE 
+Starting background process VKRM
+Mon Aug 10 15:34:29 2020
+VKRM started with pid=23, OS id=2322 
+replication_dependency_tracking turned off (no async multimaster replication found)
+Starting background process QMNC
+Mon Aug 10 15:34:30 2020
+QMNC started with pid=24, OS id=2326 
+Completed: ALTER DATABASE OPEN
+Mon Aug 10 15:34:32 2020
+Starting background process CJQ0
+Mon Aug 10 15:34:32 2020
+CJQ0 started with pid=28, OS id=2344 
+Mon Aug 10 15:34:33 2020
+db_recovery_file_dest_size of 10240 MB is 0.98% used. This is a
+user-specified limit on the amount of space that will be used by this
+database for recovery-related files, and does not reflect the amount of
+space available in the underlying filesystem or ASM diskgroup.
+Mon Aug 10 15:34:38 2020
+Errors in file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_j002_2350.trc:
+ORA-12012: error on auto execute of job "SYS"."BSLN_MAINTAIN_STATS_JOB"
+ORA-06550: line 1, column 807:
+PLS-00201: identifier 'DBSNMP.BSLN_INTERNAL' must be declared
+ORA-06550: line 1, column 807:
+PL/SQL: Statement ignored
+Mon Aug 10 15:39:31 2020
+Starting background process SMCO
+Mon Aug 10 15:39:31 2020
+SMCO started with pid=22, OS id=3866 
+Mon Aug 10 16:07:16 2020
+Shutting down instance (immediate)
+Stopping background process SMCO
+Shutting down instance: further logons disabled
+Mon Aug 10 16:07:17 2020
+Stopping background process CJQ0
+Stopping background process QMNC
+Stopping background process MMNL
+Stopping background process MMON
+License high water mark = 4
+All dispatchers and shared servers shutdown
+ALTER DATABASE CLOSE NORMAL
+Mon Aug 10 16:07:21 2020
+SMON: disabling tx recovery
+SMON: disabling cache recovery
+Mon Aug 10 16:07:21 2020
+Shutting down archive processes
+Archiving is disabled
+Archive process shutdown avoided: 0 active
+Thread 1 closed at log sequence 3
+Successful close of redo thread 1
+Completed: ALTER DATABASE CLOSE NORMAL
+ALTER DATABASE DISMOUNT
+Completed: ALTER DATABASE DISMOUNT
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+Mon Aug 10 16:07:22 2020
+Stopping background process VKTM
+Mon Aug 10 16:07:24 2020
+Instance shutdown complete
+Tue Aug 11 13:25:19 2020
+Starting ORACLE instance (normal)
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Picked latch-free SCN scheme 3
+Using LOG_ARCHIVE_DEST_1 parameter default value as USE_DB_RECOVERY_FILE_DEST
+Autotune of undo retention is turned on. 
+IMODE=BR
+ILAT =18
+LICENSE_MAX_USERS = 0
+SYS auditing is disabled
+Starting up:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production.
+Using parameter settings in server-side spfile /u01/app/oracle/product/11.2.0/xe/dbs/spfileXE.ora
+System parameters with non-default values:
+  sessions                 = 172
+  memory_target            = 1G
+  control_files            = "/u01/app/oracle/oradata/XE/control.dbf"
+  compatible               = "11.2.0.0.0"
+  db_recovery_file_dest    = "/u01/app/oracle/fast_recovery_area"
+  db_recovery_file_dest_size= 10G
+  undo_management          = "AUTO"
+  undo_tablespace          = "UNDOTBS1"
+  remote_login_passwordfile= "EXCLUSIVE"
+  dispatchers              = "(PROTOCOL=TCP) (SERVICE=XEXDB)"
+  shared_servers           = 4
+  job_queue_processes      = 4
+  audit_file_dest          = "/u01/app/oracle/admin/XE/adump"
+  db_name                  = "XE"
+  open_cursors             = 300
+  diagnostic_dest          = "/u01/app/oracle"
+Tue Aug 11 13:25:20 2020
+PMON started with pid=2, OS id=2156 
+Tue Aug 11 13:25:20 2020
+PSP0 started with pid=3, OS id=2158 
+Tue Aug 11 13:25:21 2020
+VKTM started with pid=4, OS id=2160 
+VKTM running at (100ms) precision 
+Tue Aug 11 13:25:21 2020
+GEN0 started with pid=5, OS id=2164 
+Tue Aug 11 13:25:21 2020
+DIAG started with pid=6, OS id=2166 
+Tue Aug 11 13:25:21 2020
+DBRM started with pid=7, OS id=2168 
+Tue Aug 11 13:25:21 2020
+DIA0 started with pid=8, OS id=2170 
+Tue Aug 11 13:25:21 2020
+MMAN started with pid=9, OS id=2172 
+Tue Aug 11 13:25:21 2020
+DBW0 started with pid=10, OS id=2174 
+Tue Aug 11 13:25:21 2020
+LGWR started with pid=11, OS id=2176 
+Tue Aug 11 13:25:21 2020
+CKPT started with pid=12, OS id=2178 
+Tue Aug 11 13:25:21 2020
+SMON started with pid=13, OS id=2180 
+Tue Aug 11 13:25:21 2020
+RECO started with pid=14, OS id=2182 
+Tue Aug 11 13:25:21 2020
+MMON started with pid=15, OS id=2184 
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+Tue Aug 11 13:25:21 2020
+MMNL started with pid=16, OS id=2186 
+starting up 4 shared server(s) ...
+ORACLE_BASE from environment = /u01/app/oracle
+Tue Aug 11 13:25:21 2020
+ALTER DATABASE   MOUNT
+Successful mount of redo thread 1, with mount id 2929258241
+Database mounted in Exclusive Mode
+Lost write protection disabled
+Completed: ALTER DATABASE   MOUNT
+Tue Aug 11 13:25:26 2020
+ALTER DATABASE OPEN
+Thread 1 opened at log sequence 3
+  Current log# 1 seq# 3 mem# 0: /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_1_hljd9npq_.log
+Successful open of redo thread 1
+SMON: enabling cache recovery
+[2278] Successfully onlined Undo Tablespace 2.
+Undo initialization finished serial:0 start:4294704610 end:4294705130 diff:520 (5 seconds)
+Verifying file header compatibility for 11g tablespace encryption..
+Verifying 11g file header compatibility for tablespace encryption completed
+SMON: enabling tx recovery
+Database Characterset is AL32UTF8
+Opening with Resource Manager plan: INTERNAL_PLAN_XE 
+Starting background process VKRM
+Tue Aug 11 13:25:28 2020
+VKRM started with pid=23, OS id=2280 
+replication_dependency_tracking turned off (no async multimaster replication found)
+Starting background process QMNC
+Tue Aug 11 13:25:30 2020
+QMNC started with pid=24, OS id=2282 
+Completed: ALTER DATABASE OPEN
+Tue Aug 11 13:25:32 2020
+Starting background process CJQ0
+Tue Aug 11 13:25:32 2020
+CJQ0 started with pid=28, OS id=2300 
+Tue Aug 11 13:25:32 2020
+db_recovery_file_dest_size of 10240 MB is 0.98% used. This is a
+user-specified limit on the amount of space that will be used by this
+database for recovery-related files, and does not reflect the amount of
+space available in the underlying filesystem or ASM diskgroup.
+Tue Aug 11 13:30:31 2020
+Starting background process SMCO
+Tue Aug 11 13:30:31 2020
+SMCO started with pid=22, OS id=2391 
+Tue Aug 11 13:45:41 2020
+Shutting down instance (immediate)
+Stopping background process SMCO
+Shutting down instance: further logons disabled
+Stopping background process QMNC
+Tue Aug 11 13:45:42 2020
+Stopping background process CJQ0
+Stopping background process MMNL
+Stopping background process MMON
+License high water mark = 4
+All dispatchers and shared servers shutdown
+ALTER DATABASE CLOSE NORMAL
+Tue Aug 11 13:45:46 2020
+SMON: disabling tx recovery
+SMON: disabling cache recovery
+Tue Aug 11 13:45:46 2020
+Shutting down archive processes
+Archiving is disabled
+Archive process shutdown avoided: 0 active
+Thread 1 closed at log sequence 3
+Successful close of redo thread 1
+Completed: ALTER DATABASE CLOSE NORMAL
+ALTER DATABASE DISMOUNT
+Completed: ALTER DATABASE DISMOUNT
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+Tue Aug 11 13:45:47 2020
+Stopping background process VKTM
+Tue Aug 11 13:45:49 2020
+Instance shutdown complete
+Wed Aug 19 03:59:08 2020
+Starting ORACLE instance (normal)
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Picked latch-free SCN scheme 3
+Using LOG_ARCHIVE_DEST_1 parameter default value as USE_DB_RECOVERY_FILE_DEST
+Autotune of undo retention is turned on. 
+IMODE=BR
+ILAT =18
+LICENSE_MAX_USERS = 0
+SYS auditing is disabled
+Starting up:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production.
+Using parameter settings in server-side spfile /u01/app/oracle/product/11.2.0/xe/dbs/spfileXE.ora
+System parameters with non-default values:
+  sessions                 = 172
+  memory_target            = 1G
+  control_files            = "/u01/app/oracle/oradata/XE/control.dbf"
+  compatible               = "11.2.0.0.0"
+  db_recovery_file_dest    = "/u01/app/oracle/fast_recovery_area"
+  db_recovery_file_dest_size= 10G
+  undo_management          = "AUTO"
+  undo_tablespace          = "UNDOTBS1"
+  remote_login_passwordfile= "EXCLUSIVE"
+  dispatchers              = "(PROTOCOL=TCP) (SERVICE=XEXDB)"
+  shared_servers           = 4
+  job_queue_processes      = 4
+  audit_file_dest          = "/u01/app/oracle/admin/XE/adump"
+  db_name                  = "XE"
+  open_cursors             = 300
+  diagnostic_dest          = "/u01/app/oracle"
+Wed Aug 19 03:59:09 2020
+PMON started with pid=2, OS id=2193 
+Wed Aug 19 03:59:09 2020
+PSP0 started with pid=3, OS id=2195 
+Wed Aug 19 03:59:10 2020
+VKTM started with pid=4, OS id=2198 
+VKTM running at (100ms) precision 
+Wed Aug 19 03:59:10 2020
+GEN0 started with pid=5, OS id=2202 
+Wed Aug 19 03:59:10 2020
+DIAG started with pid=6, OS id=2204 
+Wed Aug 19 03:59:11 2020
+DBRM started with pid=7, OS id=2206 
+Wed Aug 19 03:59:11 2020
+DIA0 started with pid=8, OS id=2208 
+Wed Aug 19 03:59:11 2020
+MMAN started with pid=9, OS id=2210 
+Wed Aug 19 03:59:11 2020
+DBW0 started with pid=10, OS id=2212 
+Wed Aug 19 03:59:11 2020
+LGWR started with pid=11, OS id=2214 
+Wed Aug 19 03:59:11 2020
+CKPT started with pid=12, OS id=2216 
+Wed Aug 19 03:59:11 2020
+SMON started with pid=13, OS id=2218 
+Wed Aug 19 03:59:11 2020
+RECO started with pid=14, OS id=2220 
+Wed Aug 19 03:59:11 2020
+MMON started with pid=15, OS id=2222 
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+Wed Aug 19 03:59:11 2020
+MMNL started with pid=16, OS id=2224 
+starting up 4 shared server(s) ...
+ORACLE_BASE from environment = /u01/app/oracle
+Wed Aug 19 03:59:11 2020
+ALTER DATABASE   MOUNT
+Successful mount of redo thread 1, with mount id 2929898063
+Database mounted in Exclusive Mode
+Lost write protection disabled
+Completed: ALTER DATABASE   MOUNT
+Wed Aug 19 03:59:15 2020
+ALTER DATABASE OPEN
+Thread 1 opened at log sequence 3
+  Current log# 1 seq# 3 mem# 0: /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_1_hljd9npq_.log
+Successful open of redo thread 1
+SMON: enabling cache recovery
+[2315] Successfully onlined Undo Tablespace 2.
+Undo initialization finished serial:0 start:4294706250 end:4294706820 diff:570 (5 seconds)
+Verifying file header compatibility for 11g tablespace encryption..
+Verifying 11g file header compatibility for tablespace encryption completed
+SMON: enabling tx recovery
+Database Characterset is AL32UTF8
+Opening with Resource Manager plan: INTERNAL_PLAN_XE 
+Starting background process VKRM
+Wed Aug 19 03:59:19 2020
+VKRM started with pid=23, OS id=2319 
+replication_dependency_tracking turned off (no async multimaster replication found)
+Starting background process QMNC
+Wed Aug 19 03:59:21 2020
+QMNC started with pid=24, OS id=2321 
+Completed: ALTER DATABASE OPEN
+Wed Aug 19 03:59:23 2020
+Starting background process CJQ0
+Wed Aug 19 03:59:23 2020
+CJQ0 started with pid=28, OS id=2339 
+Wed Aug 19 03:59:24 2020
+db_recovery_file_dest_size of 10240 MB is 0.98% used. This is a
+user-specified limit on the amount of space that will be used by this
+database for recovery-related files, and does not reflect the amount of
+space available in the underlying filesystem or ASM diskgroup.
+Wed Aug 19 03:59:29 2020
+Errors in file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_j003_2351.trc:
+ORA-12012: error on auto execute of job "SYS"."BSLN_MAINTAIN_STATS_JOB"
+ORA-06550: line 1, column 807:
+PLS-00201: identifier 'DBSNMP.BSLN_INTERNAL' must be declared
+ORA-06550: line 1, column 807:
+PL/SQL: Statement ignored
+Wed Aug 19 04:04:22 2020
+Starting background process SMCO
+Wed Aug 19 04:04:22 2020
+SMCO started with pid=22, OS id=2514 
+Wed Aug 19 08:35:08 2020
+Shutting down instance (immediate)
+Stopping background process SMCO
+Shutting down instance: further logons disabled
+Wed Aug 19 08:35:09 2020
+Stopping background process CJQ0
+Stopping background process QMNC
+Stopping background process MMNL
+Stopping background process MMON
+License high water mark = 4
+Stopping Job queue slave processes, flags = 7
+Job queue slave processes stopped
+All dispatchers and shared servers shutdown
+ALTER DATABASE CLOSE NORMAL
+Wed Aug 19 08:35:12 2020
+SMON: disabling tx recovery
+SMON: disabling cache recovery
+Wed Aug 19 08:35:12 2020
+Shutting down archive processes
+Archiving is disabled
+Archive process shutdown avoided: 0 active
+Thread 1 closed at log sequence 3
+Successful close of redo thread 1
+Completed: ALTER DATABASE CLOSE NORMAL
+ALTER DATABASE DISMOUNT
+Completed: ALTER DATABASE DISMOUNT
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+Wed Aug 19 08:35:13 2020
+Stopping background process VKTM
+Wed Aug 19 08:35:15 2020
+Instance shutdown complete
+Wed Aug 19 15:31:17 2020
+Starting ORACLE instance (normal)
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Picked latch-free SCN scheme 3
+Using LOG_ARCHIVE_DEST_1 parameter default value as USE_DB_RECOVERY_FILE_DEST
+Autotune of undo retention is turned on. 
+IMODE=BR
+ILAT =18
+LICENSE_MAX_USERS = 0
+SYS auditing is disabled
+Starting up:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production.
+Using parameter settings in server-side spfile /u01/app/oracle/product/11.2.0/xe/dbs/spfileXE.ora
+System parameters with non-default values:
+  sessions                 = 172
+  memory_target            = 1G
+  control_files            = "/u01/app/oracle/oradata/XE/control.dbf"
+  compatible               = "11.2.0.0.0"
+  db_recovery_file_dest    = "/u01/app/oracle/fast_recovery_area"
+  db_recovery_file_dest_size= 10G
+  undo_management          = "AUTO"
+  undo_tablespace          = "UNDOTBS1"
+  remote_login_passwordfile= "EXCLUSIVE"
+  dispatchers              = "(PROTOCOL=TCP) (SERVICE=XEXDB)"
+  shared_servers           = 4
+  job_queue_processes      = 4
+  audit_file_dest          = "/u01/app/oracle/admin/XE/adump"
+  db_name                  = "XE"
+  open_cursors             = 300
+  diagnostic_dest          = "/u01/app/oracle"
+Wed Aug 19 15:31:18 2020
+PMON started with pid=2, OS id=2208 
+Wed Aug 19 15:31:18 2020
+PSP0 started with pid=3, OS id=2210 
+Wed Aug 19 15:31:19 2020
+VKTM started with pid=4, OS id=2212 
+VKTM running at (100ms) precision 
+Wed Aug 19 15:31:19 2020
+GEN0 started with pid=5, OS id=2216 
+Wed Aug 19 15:31:19 2020
+DIAG started with pid=6, OS id=2218 
+Wed Aug 19 15:31:19 2020
+DBRM started with pid=7, OS id=2220 
+Wed Aug 19 15:31:19 2020
+DIA0 started with pid=8, OS id=2222 
+Wed Aug 19 15:31:19 2020
+MMAN started with pid=9, OS id=2224 
+Wed Aug 19 15:31:19 2020
+DBW0 started with pid=10, OS id=2226 
+Wed Aug 19 15:31:19 2020
+LGWR started with pid=11, OS id=2228 
+Wed Aug 19 15:31:19 2020
+CKPT started with pid=12, OS id=2230 
+Wed Aug 19 15:31:19 2020
+SMON started with pid=13, OS id=2232 
+Wed Aug 19 15:31:19 2020
+RECO started with pid=14, OS id=2234 
+Wed Aug 19 15:31:19 2020
+MMON started with pid=15, OS id=2236 
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+Wed Aug 19 15:31:19 2020
+MMNL started with pid=16, OS id=2238 
+starting up 4 shared server(s) ...
+ORACLE_BASE from environment = /u01/app/oracle
+Wed Aug 19 15:31:19 2020
+ALTER DATABASE   MOUNT
+Successful mount of redo thread 1, with mount id 2930016391
+Database mounted in Exclusive Mode
+Lost write protection disabled
+Completed: ALTER DATABASE   MOUNT
+Wed Aug 19 15:31:23 2020
+ALTER DATABASE OPEN
+Thread 1 opened at log sequence 3
+  Current log# 1 seq# 3 mem# 0: /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_1_hljd9npq_.log
+Successful open of redo thread 1
+SMON: enabling cache recovery
+[2329] Successfully onlined Undo Tablespace 2.
+Undo initialization finished serial:0 start:4294704790 end:4294705390 diff:600 (6 seconds)
+Verifying file header compatibility for 11g tablespace encryption..
+Verifying 11g file header compatibility for tablespace encryption completed
+SMON: enabling tx recovery
+Database Characterset is AL32UTF8
+Opening with Resource Manager plan: INTERNAL_PLAN_XE 
+Starting background process VKRM
+Wed Aug 19 15:31:26 2020
+VKRM started with pid=23, OS id=2333 
+replication_dependency_tracking turned off (no async multimaster replication found)
+Starting background process QMNC
+Wed Aug 19 15:31:29 2020
+QMNC started with pid=24, OS id=2335 
+Completed: ALTER DATABASE OPEN
+Wed Aug 19 15:31:31 2020
+Starting background process CJQ0
+Wed Aug 19 15:31:31 2020
+CJQ0 started with pid=27, OS id=2353 
+Wed Aug 19 15:31:31 2020
+db_recovery_file_dest_size of 10240 MB is 0.98% used. This is a
+user-specified limit on the amount of space that will be used by this
+database for recovery-related files, and does not reflect the amount of
+space available in the underlying filesystem or ASM diskgroup.
+Wed Aug 19 15:36:29 2020
+Starting background process SMCO
+Wed Aug 19 15:36:29 2020
+SMCO started with pid=22, OS id=2421 
+Wed Aug 19 16:16:46 2020
+Shutting down instance (immediate)
+Stopping background process SMCO
+Shutting down instance: further logons disabled
+Wed Aug 19 16:16:47 2020
+Stopping background process CJQ0
+Stopping background process QMNC
+Stopping background process MMNL
+Stopping background process MMON
+License high water mark = 4
+All dispatchers and shared servers shutdown
+ALTER DATABASE CLOSE NORMAL
+Wed Aug 19 16:16:50 2020
+SMON: disabling tx recovery
+SMON: disabling cache recovery
+Wed Aug 19 16:16:50 2020
+Shutting down archive processes
+Archiving is disabled
+Archive process shutdown avoided: 0 active
+Thread 1 closed at log sequence 3
+Successful close of redo thread 1
+Completed: ALTER DATABASE CLOSE NORMAL
+ALTER DATABASE DISMOUNT
+Completed: ALTER DATABASE DISMOUNT
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+Wed Aug 19 16:16:50 2020
+Stopping background process VKTM
+Wed Aug 19 16:16:52 2020
+Instance shutdown complete
+Thu Aug 20 16:34:29 2020
+Starting ORACLE instance (normal)
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Picked latch-free SCN scheme 3
+Using LOG_ARCHIVE_DEST_1 parameter default value as USE_DB_RECOVERY_FILE_DEST
+Autotune of undo retention is turned on. 
+IMODE=BR
+ILAT =18
+LICENSE_MAX_USERS = 0
+SYS auditing is disabled
+Starting up:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production.
+Using parameter settings in server-side spfile /u01/app/oracle/product/11.2.0/xe/dbs/spfileXE.ora
+System parameters with non-default values:
+  sessions                 = 172
+  memory_target            = 1G
+  control_files            = "/u01/app/oracle/oradata/XE/control.dbf"
+  compatible               = "11.2.0.0.0"
+  db_recovery_file_dest    = "/u01/app/oracle/fast_recovery_area"
+  db_recovery_file_dest_size= 10G
+  undo_management          = "AUTO"
+  undo_tablespace          = "UNDOTBS1"
+  remote_login_passwordfile= "EXCLUSIVE"
+  dispatchers              = "(PROTOCOL=TCP) (SERVICE=XEXDB)"
+  shared_servers           = 4
+  job_queue_processes      = 4
+  audit_file_dest          = "/u01/app/oracle/admin/XE/adump"
+  db_name                  = "XE"
+  open_cursors             = 300
+  diagnostic_dest          = "/u01/app/oracle"
+Thu Aug 20 16:34:29 2020
+PMON started with pid=2, OS id=2204 
+Thu Aug 20 16:34:29 2020
+PSP0 started with pid=3, OS id=2206 
+Thu Aug 20 16:34:30 2020
+VKTM started with pid=4, OS id=2209 
+VKTM running at (100ms) precision 
+Thu Aug 20 16:34:30 2020
+GEN0 started with pid=5, OS id=2213 
+Thu Aug 20 16:34:30 2020
+DIAG started with pid=6, OS id=2215 
+Thu Aug 20 16:34:30 2020
+DBRM started with pid=7, OS id=2217 
+Thu Aug 20 16:34:30 2020
+DIA0 started with pid=8, OS id=2219 
+Thu Aug 20 16:34:31 2020
+MMAN started with pid=9, OS id=2221 
+Thu Aug 20 16:34:31 2020
+DBW0 started with pid=10, OS id=2223 
+Thu Aug 20 16:34:31 2020
+LGWR started with pid=11, OS id=2225 
+Thu Aug 20 16:34:31 2020
+CKPT started with pid=12, OS id=2227 
+Thu Aug 20 16:34:31 2020
+SMON started with pid=13, OS id=2229 
+Thu Aug 20 16:34:31 2020
+RECO started with pid=14, OS id=2231 
+Thu Aug 20 16:34:31 2020
+MMON started with pid=15, OS id=2233 
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+Thu Aug 20 16:34:31 2020
+MMNL started with pid=16, OS id=2235 
+starting up 4 shared server(s) ...
+ORACLE_BASE from environment = /u01/app/oracle
+Thu Aug 20 16:34:31 2020
+ALTER DATABASE   MOUNT
+Successful mount of redo thread 1, with mount id 2930030551
+Database mounted in Exclusive Mode
+Lost write protection disabled
+Completed: ALTER DATABASE   MOUNT
+Thu Aug 20 16:34:35 2020
+ALTER DATABASE OPEN
+Thread 1 opened at log sequence 3
+  Current log# 1 seq# 3 mem# 0: /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_1_hljd9npq_.log
+Successful open of redo thread 1
+SMON: enabling cache recovery
+[2326] Successfully onlined Undo Tablespace 2.
+Undo initialization finished serial:0 start:4294705570 end:4294705930 diff:360 (3 seconds)
+Verifying file header compatibility for 11g tablespace encryption..
+Verifying 11g file header compatibility for tablespace encryption completed
+SMON: enabling tx recovery
+Database Characterset is AL32UTF8
+Opening with Resource Manager plan: INTERNAL_PLAN_XE 
+Starting background process VKRM
+Thu Aug 20 16:34:38 2020
+VKRM started with pid=23, OS id=2328 
+replication_dependency_tracking turned off (no async multimaster replication found)
+Starting background process QMNC
+Thu Aug 20 16:34:40 2020
+QMNC started with pid=24, OS id=2330 
+Completed: ALTER DATABASE OPEN
+Thu Aug 20 16:34:42 2020
+Starting background process CJQ0
+Thu Aug 20 16:34:42 2020
+CJQ0 started with pid=28, OS id=2348 
+Thu Aug 20 16:34:42 2020
+db_recovery_file_dest_size of 10240 MB is 0.98% used. This is a
+user-specified limit on the amount of space that will be used by this
+database for recovery-related files, and does not reflect the amount of
+space available in the underlying filesystem or ASM diskgroup.
+Thu Aug 20 16:39:40 2020
+Starting background process SMCO
+Thu Aug 20 16:39:40 2020
+SMCO started with pid=22, OS id=2470 

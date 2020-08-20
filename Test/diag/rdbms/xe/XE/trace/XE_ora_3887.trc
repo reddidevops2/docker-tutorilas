@@ -1,0 +1,37 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_ora_3887.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 22
+Unix process pid: 3887, image: oracle@devops-server1 (TNS V1-V3)
+
+
+*** 2020-08-03 15:45:18.567
+*** SESSION ID:(9.1) 2020-08-03 15:45:18.567
+*** CLIENT ID:() 2020-08-03 15:45:18.567
+*** SERVICE NAME:() 2020-08-03 15:45:18.567
+*** MODULE NAME:(restore full datafile) 2020-08-03 15:45:18.567
+*** ACTION NAME:(0000007 STARTED120) 2020-08-03 15:45:18.567
+ 
+The input backup piece /u01/app/oracle/product/11.2.0/xe/config/seeddb/express.dfb is in BASIC 11.2 compressed format.
+DB key in control file and datafile 1 is inconsistent
+control file key: kcbztek_print_kod: printing kcbtekod strucutre 0x60019a20--kcbtekod_ena = 0, kcbtekod_flag = 0 kcbtekod_mkloc = 0 
+--kcbtekod_key = 00000000000000000000000000000000
+--kcbtekod_mkeyid = 0000000000000000
+input mkid is: 37522cf8d7f56f9f15d7068f9c5d4
+current kcbtsemkloc 0, kcbtsemkid is: 37522cf8d7f56f9f15d7068f9c5d4
+datafile 1 key: kcbztek_print_kod: printing kcbtekod strucutre 0x7ffce9476a7c--kcbtekod_ena = 2, kcbtekod_flag = 6 kcbtekod_mkloc = 0 
+--kcbtekod_key = b0da9f1a24da76ce9a1d84feac69e230000000000000000
+--kcbtekod_mkeyid = 37522cf8d7f56f9f15d7068f9c5d4
+kcbztek_dump_keychain: Start dumping key chain state..
+--------------------------------
+kcbztek_print_tek: printing kcbtek structure 0x9b3e61a0  tsn: 1, alg: 2, keystate: 1, usesalt?: 2, enctbs?: 0
+  encrypted key: b0da9f1a24da76ce9a1d84feac69e230000000000000000
+  mkloc 0, mkid: 37522cf8d7f56f9f15d7068f9c5d4
+--------------------------------

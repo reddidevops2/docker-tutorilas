@@ -1,0 +1,26 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_j002_2350.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 1
+Oracle process number: 26
+Unix process pid: 2350, image: oracle@devops-server1 (J002)
+
+
+*** 2020-08-10 15:34:38.447
+*** SESSION ID:(15.5) 2020-08-10 15:34:38.447
+*** CLIENT ID:() 2020-08-10 15:34:38.447
+*** SERVICE NAME:(SYS$USERS) 2020-08-10 15:34:38.447
+*** MODULE NAME:(DBMS_SCHEDULER) 2020-08-10 15:34:38.447
+*** ACTION NAME:(BSLN_MAINTAIN_STATS_JOB) 2020-08-10 15:34:38.447
+ 
+ORA-12012: error on auto execute of job "SYS"."BSLN_MAINTAIN_STATS_JOB"
+ORA-06550: line 1, column 807:
+PLS-00201: identifier 'DBSNMP.BSLN_INTERNAL' must be declared
+ORA-06550: line 1, column 807:
+PL/SQL: Statement ignored

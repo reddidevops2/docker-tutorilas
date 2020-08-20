@@ -1,0 +1,32 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_mmon_2184.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 1
+Oracle process number: 15
+Unix process pid: 2184, image: oracle@devops-server1 (MMON)
+
+
+*** 2020-08-11 13:25:27.470
+*** SESSION ID:(94.1) 2020-08-11 13:25:27.470
+*** CLIENT ID:() 2020-08-11 13:25:27.470
+*** SERVICE NAME:() 2020-08-11 13:25:27.470
+*** MODULE NAME:() 2020-08-11 13:25:27.470
+*** ACTION NAME:() 2020-08-11 13:25:27.470
+ 
+minact-scn master-status: grec-scn:0x0000.00000000 gmin-scn:0x0000.00000000 gcalc-scn:0x0000.00000000
+
+*** 2020-08-11 13:30:30.494
+minact-scn master-status: grec-scn:0x0000.00060874 gmin-scn:0x0000.00060874 gcalc-scn:0x0000.00060874
+
+*** 2020-08-11 13:35:30.535
+minact-scn master-status: grec-scn:0x0000.000608f8 gmin-scn:0x0000.000608f8 gcalc-scn:0x0000.000608f8
+minact-scn master-status: grec-scn:0x0000.0006098f gmin-scn:0x0000.0006098f gcalc-scn:0x0000.0006098f
+
+*** 2020-08-11 13:45:36.634
+minact-scn master-status: grec-scn:0x0000.00060a9c gmin-scn:0x0000.00060a9c gcalc-scn:0x0000.00060a9c

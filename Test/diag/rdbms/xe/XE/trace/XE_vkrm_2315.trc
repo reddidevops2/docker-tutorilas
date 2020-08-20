@@ -1,0 +1,42 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_vkrm_2315.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 1
+Oracle process number: 23
+Unix process pid: 2315, image: oracle@devops-server1 (VKRM)
+
+
+*** 2020-08-07 10:52:35.520
+*** SESSION ID:(97.1) 2020-08-07 10:52:35.520
+*** CLIENT ID:() 2020-08-07 10:52:35.520
+*** SERVICE NAME:() 2020-08-07 10:52:35.520
+*** MODULE NAME:() 2020-08-07 10:52:35.520
+*** ACTION NAME:() 2020-08-07 10:52:35.520
+ 
+VKRM scheduling interval:(10)ms
+VKRM uses low resolution time: last active time=(0), current time=(1596797555453303)
+_history_rest_time=(10)sec
+
+*** 2020-08-07 16:08:57.915
+[pg:0]: dynamic low[2], high[4]
+
+*** 2020-08-07 16:09:00.912
+[pg:0]: dynamic low[3], high[5]
+
+*** 2020-08-07 16:09:03.919
+[pg:0]: dynamic low[1], high[3]
+
+*** 2020-08-07 16:13:28.183
+[pg:0]: dynamic low[2], high[4]
+
+*** 2020-08-07 16:13:31.192
+[pg:0]: dynamic low[1], high[3]
+
+*** 2020-08-07 16:18:17.988
+VKRM ends at (1596817097938978)

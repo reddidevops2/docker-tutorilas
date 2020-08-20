@@ -1,0 +1,159 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_dbrm_2217.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 1
+Oracle process number: 7
+Unix process pid: 2217, image: oracle@devops-server1 (DBRM)
+
+
+*** 2020-08-20 16:34:38.360
+*** SESSION ID:(90.1) 2020-08-20 16:34:38.360
+*** CLIENT ID:() 2020-08-20 16:34:38.360
+*** SERVICE NAME:() 2020-08-20 16:34:38.360
+*** MODULE NAME:() 2020-08-20 16:34:38.360
+*** ACTION NAME:() 2020-08-20 16:34:38.360
+ 
+kgsksysstop: blocking mode (2) timestamp: 1597941278347583
+kgsksysstop: successful
+kgskreset: Threshold setting[numa_pg(0)]
+Threshold low[0] = 1, high[0] = 3
+kgsksysresume: successful
+   
+****************************************************
+RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+****************************************************
+type: PLAN, Name: INTERNAL_PLAN_XE, number of directives: 2, bit mask: 0x3
+policy index: 0, inst state index: 0, plan id: 1
+ 
+Data from Management module:
+----------------------------
+Plan Parameters:
+   <None>
+Plan Directives:
+     [1] Plan Directive Parameters:
+        Directive name: MGMT_P1, value: 100
+     Directive:
+          type: CONSUMER GROUP, Name: OTHER_GROUPS (addr: 0x9f85b8c0)
+          policy index: 0, inst state index: 0, class num: 0x1
+          mast: INFINITE, ASL qtout: INFINITE, PQQ qtout: INFINITE, mdop: INFINITE
+          Statistics:
+             current queued threads: 0,
+             class total time: 0 msec, penalty # 0
+             total threads: 0
+             total CPU yields: 0
+             total CPU wait: 0 msec
+             total IO wait: 0 msec
+          Class Parameters:
+             <None>
+   
+     [2] Plan Directive Parameters:
+        Directive name: MGMT_B0, value: 90
+     Directive:
+          type: CONSUMER GROUP, Name: _ORACLE_BACKGROUND_GROUP_ (addr: 0x9f848bf0)
+          policy index: 0, inst state index: 1, class num: 0x2
+          mast: INFINITE, ASL qtout: INFINITE, PQQ qtout: INFINITE, mdop: INFINITE
+          Statistics:
+             current queued threads: 0,
+             class total time: 0 msec, penalty # 0
+             total threads: 15
+             total CPU yields: 0
+             total CPU wait: 0 msec
+             total IO wait: 0 msec
+          Class Parameters:
+             <None>
+   
+
+*** 2020-08-20 16:35:06.985
+kgsksysstop: non-blocking mode (6) timestamp: 1597941306985304
+kgsksysstop: successful
+kgsksysresume: successful
+
+*** 2020-08-20 16:36:12.985
+cpu%:     cputm:      cpuwt:    avgrun:    avgwt:
+   1         355          10       0.00      0.00
+RQs:   < 5:      < 10:      < 50:      < 100:      < 200:     < 1000:       > 1K:
+      1210          9          2           1           0           0           0
+
+*** 2020-08-20 16:37:42.985
+   0           0           0       0.00      0.00
+         0          0          0           0           0           0           0
+
+*** 2020-08-20 16:39:12.985
+   0           0           0       0.00      0.00
+         0          0          0           0           0           0           0
+
+*** 2020-08-20 16:40:42.985
+   0           5           0       0.00      0.00
+         1          1          0           0           0           0           0
+
+*** 2020-08-20 16:42:12.985
+   0           0           0       0.00      0.00
+         0          0          0           0           0           0           0
+
+*** 2020-08-20 16:43:42.985
+cpu%:     cputm:      cpuwt:    avgrun:    avgwt:
+   0           0           0       0.00      0.00
+RQs:   < 5:      < 10:      < 50:      < 100:      < 200:     < 1000:       > 1K:
+         0          0          0           0           0           0           0
+
+*** 2020-08-20 16:45:12.985
+   0           5           0       0.00      0.00
+         1          1          0           0           0           0           0
+
+*** 2020-08-20 16:46:42.985
+   0           0           0       0.00      0.00
+         0          0          0           0           0           0           0
+
+*** 2020-08-20 16:48:12.985
+   0           0           0       0.00      0.00
+         0          0          0           0           0           0           0
+   0           0           0       0.00      0.00
+
+*** 2020-08-20 16:49:42.985
+         0          0          0           0           0           0           0
+
+*** 2020-08-20 16:51:13.007
+cpu%:     cputm:      cpuwt:    avgrun:    avgwt:
+   9           5           0       0.00      0.00
+RQs:   < 5:      < 10:      < 50:      < 100:      < 200:     < 1000:       > 1K:
+         3          0          0           0           0           0           0
+
+*** 2020-08-20 16:52:43.007
+  11           0           0       0.00      0.00
+         0          0          0           0           0           0           0
+
+*** 2020-08-20 16:54:13.008
+   0           0           0       0.00      0.00
+         0          0          0           0           0           0           0
+
+*** 2020-08-20 16:55:43.008
+   1           6           0       0.00      0.00
+         1          1          0           0           0           0           0
+
+*** 2020-08-20 16:57:13.009
+   0           0           0       0.00      0.00
+         0          0          0           0           0           0           0
+
+*** 2020-08-20 16:58:43.009
+cpu%:     cputm:      cpuwt:    avgrun:    avgwt:
+   6           0           0       0.00      0.00
+RQs:   < 5:      < 10:      < 50:      < 100:      < 200:     < 1000:       > 1K:
+         0          0          0           0           0           0           0
+
+*** 2020-08-20 17:00:13.009
+  11          13           0       0.00      0.00
+         8          1          0           0           0           0           0
+
+*** 2020-08-20 17:01:43.009
+   0           0           0       0.00      0.00
+         0          0          0           0           0           0           0
+
+*** 2020-08-20 17:03:13.009
+   0           0           0       0.00      0.00
+         0          0          0           0           0           0           0

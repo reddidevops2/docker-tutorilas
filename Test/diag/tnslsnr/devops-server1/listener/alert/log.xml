@@ -1,0 +1,3654 @@
+<msg time='2020-08-03T15:45:12.930+00:00' org_id='oracle' comp_id='tnslsnr'
+ msg_id='dbgrmmdcrf_create_relation_full:1941:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='devops-server1' host_addr='10.128.0.7'
+ version='1'>
+ <txt>Create Relation ADR_CONTROL
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:12.973+00:00' org_id='oracle' comp_id='tnslsnr'
+ msg_id='dbgrmmdcrf_create_relation_full:1941:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='devops-server1' host_addr='10.128.0.7'>
+ <txt>Create Relation ADR_INVALIDATION
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:13.000+00:00' org_id='oracle' comp_id='tnslsnr'
+ msg_id='dbgrmmdcrf_create_relation_full:1941:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='devops-server1' host_addr='10.128.0.7'>
+ <txt>Create Relation INC_METER_IMPT_DEF
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:13.043+00:00' org_id='oracle' comp_id='tnslsnr'
+ msg_id='dbgrmmdcrf_create_relation_full:1941:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='devops-server1' host_addr='10.128.0.7'>
+ <txt>Create Relation INC_METER_PK_IMPTS
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:13.086+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:13.086+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:13.086+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_3774_139826322560832.trc
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:13.086+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace level is currently 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:13.086+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:13.087+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Started with pid=3774
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:13.088+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:13.123+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:13.127+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listener completed notification to CRS on start
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:13.127+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:13.129+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>WARNING: Subscription for node down event still pending
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:13.129+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:45:13 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:17.219+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:17.220+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:45:17 * service_register * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:18.448+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:45:18 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:49.033+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:45:49 * service_died * XE * 12537
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:53.272+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:53.273+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:45:53 * service_register * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:54.511+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:45:54 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:45:56.715+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:45:56 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:01.588+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=8080))(Presentation=HTTP)(Session=RAW))
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:01.588+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:46:01 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:04.591+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:46:04 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:08.477+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>No longer listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=8080))(Presentation=HTTP)(Session=RAW))
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:08.477+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:46:08 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:11.492+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:11.492+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:46:11 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:17.489+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:46:17 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:17.703+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:46:17 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:17.718+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:46:17 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:17.718+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:46:17 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:17.718+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:46:17 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:17.910+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>No longer listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:17.911+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:46:17 * service_died * XE * 12537
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:22.056+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:22.056+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:46:22 * service_register * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:23.295+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:46:23 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:27.823+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:46:27 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:28.603+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:28.603+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:46:28 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:46:31.587+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:46:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:48:25.696+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:48:25 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:32.715+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:32.725+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:32.725+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_2735_139948921489216.trc
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:32.725+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace level is currently 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:32.725+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:32.739+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Started with pid=2735
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:32.767+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:32.794+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:32.993+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listener completed notification to CRS on start
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:33.003+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:33.034+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>WARNING: Subscription for node down event still pending
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:33.034+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:52:33 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:38.099+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:38.099+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:52:38 * service_register * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:38.478+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:52:38 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:44.639+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:52:44 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:49.214+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:49.215+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:52:49 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:50.144+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:52:50 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:52:53.147+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:52:53 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:55:02.310+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:55:02 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:55:32.337+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:55:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T15:56:17.388+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 15:56:17 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T16:00:02.602+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 16:00:02 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T16:00:32.631+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 16:00:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-03T16:02:50.776+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>03-AUG-2020 16:02:50 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:43.072+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:43.136+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:43.136+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_1977_140571130578752.trc
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:43.136+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace level is currently 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:43.136+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:43.141+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Started with pid=1977
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:43.156+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:43.195+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:43.361+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listener completed notification to CRS on start
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:43.362+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:43.364+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>WARNING: Subscription for node down event still pending
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:43.364+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:21:43 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:45.575+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:45.575+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:21:45 * service_register * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:46.829+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:21:46 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:52.949+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:21:52 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:56.487+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:56.487+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:21:56 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:21:57.070+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:21:57 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:22:00.074+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:22:00 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:22:03.077+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:22:03 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:22:33.110+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:22:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:25:03.251+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:25:03 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:25:33.282+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:25:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:30:00.582+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:30:00 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:30:30.615+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:30:30 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:31:57.694+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:31:57 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:40:31.154+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:40:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:41:52.222+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:41:52 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:41:58.229+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:41:58 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:45:01.410+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:45:01 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:45:31.438+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:45:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:47:01.523+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:47:01 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:51:58.802+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:51:58 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T05:55:31.984+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 05:55:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:31:47.124+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+ </txt>
+</msg>
+<msg time='2020-08-07T10:31:47.131+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+ </txt>
+</msg>
+<msg time='2020-08-07T10:31:47.131+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_1983_139755582957376.trc
+ </txt>
+</msg>
+<msg time='2020-08-07T10:31:47.131+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace level is currently 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:31:47.131+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+ </txt>
+</msg>
+<msg time='2020-08-07T10:31:47.148+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Started with pid=1983
+ </txt>
+</msg>
+<msg time='2020-08-07T10:31:47.178+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+ </txt>
+</msg>
+<msg time='2020-08-07T10:31:47.234+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-07T10:31:47.376+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listener completed notification to CRS on start
+ </txt>
+</msg>
+<msg time='2020-08-07T10:31:47.376+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+ </txt>
+</msg>
+<msg time='2020-08-07T10:31:47.378+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>WARNING: Subscription for node down event still pending
+ </txt>
+</msg>
+<msg time='2020-08-07T10:31:47.378+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:31:47 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:31:49.534+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-07T10:31:49.535+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:31:49 * service_register * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:31:50.869+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:31:50 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:31:56.978+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:31:56 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:32:00.397+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+ </txt>
+</msg>
+<msg time='2020-08-07T10:32:00.397+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:32:00 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:32:00.959+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:32:00 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:32:03.962+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:32:03 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:32:06.963+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:32:06 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:32:36.994+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:32:36 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:35:01.139+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:35:01 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:35:31.169+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:35:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:40:01.438+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:40:01 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:40:31.471+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:40:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:42:01.558+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:42:01 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:50:32.072+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:50:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:24.768+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:24.827+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:24.827+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_1970_139818965350208.trc
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:24.827+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace level is currently 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:24.827+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:24.832+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Started with pid=1970
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:24.848+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:24.882+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:25.121+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listener completed notification to CRS on start
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:25.123+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:25.126+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>WARNING: Subscription for node down event still pending
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:25.126+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:52:25 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:27.299+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:27.299+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:52:27 * service_register * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:28.557+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:52:28 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:34.672+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:52:34 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:38.355+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:38.355+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:52:38 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:38.811+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:52:38 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:52:41.812+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:52:41 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T10:58:06.157+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 10:58:06 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:00:33.307+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:00:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:02:39.423+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:02:39 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:05:33.592+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:05:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:12:34.020+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:12:34 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:12:40.024+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:12:40 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:15:01.197+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:15:01 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:15:31.231+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:15:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:22:40.662+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:22:40 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:25:31.821+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:25:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:27:40.937+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:27:40 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:32:41.229+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:32:41 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:35:32.384+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:35:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:37:44.514+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:37:44 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:40:02.640+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:40:02 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:40:32.669+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:40:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:42:41.793+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:42:41 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:52:36.340+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:52:36 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:52:39.343+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:52:39 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T11:52:42.347+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 11:52:42 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:00:33.769+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:00:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:02:33.887+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:02:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:02:42.895+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:02:42 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:12:34.461+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:12:34 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:12:43.470+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:12:43 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:15:01.594+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:15:01 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:15:31.625+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:15:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:15:49.641+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:15:49 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:17:46.760+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:17:46 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:22:44.018+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:22:44 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:25:32.186+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:25:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:32:44.593+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:32:44 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:35:32.758+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:35:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:37:50.879+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:37:50 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:40:02.985+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:40:02 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:40:33.017+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:40:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:42:45.127+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:42:45 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:52:36.664+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:52:36 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:52:45.669+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:52:45 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:55:00.806+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:55:00 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T12:55:30.820+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 12:55:30 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:02:46.211+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:02:46 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:05:31.362+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:05:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:12:46.773+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:12:46 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:15:46.948+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:15:46 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:17:56.055+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:17:56 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:20:02.175+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:20:02 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:20:32.195+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:20:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:22:47.325+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:22:47 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:30:32.757+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:30:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:32:35.866+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:32:35 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:32:47.876+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:32:47 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:35:02.996+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:35:02 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:35:33.022+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:35:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:42:48.434+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:42:48 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:45:33.589+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:45:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:48:03.716+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:48:03 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:50:30.859+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:50:30 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:50:33.863+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:50:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:52:48.977+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:52:48 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:55:31.091+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:55:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T13:58:07.226+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 13:58:07 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:00:31.358+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:00:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:02:49.491+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:02:49 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:10:31.922+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:10:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:12:35.032+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:12:35 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:12:50.045+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:12:50 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:15:02.166+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:15:02 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:15:32.192+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:15:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:15:53.212+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:15:53 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:20:04.035+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:20:04 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=121.8.164.114)(PORT=42381)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:22:50.615+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:22:50 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:25:32.736+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:25:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:32:51.113+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:32:51 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:37:36.381+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:37:36 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:38:12.415+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:38:12 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:40:03.514+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:40:03 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:40:33.546+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:40:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:42:51.665+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:42:51 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:52:37.193+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:52:37 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:52:52.208+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:52:52 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:55:01.339+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:55:01 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T14:55:31.366+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 14:55:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T15:02:52.769+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 15:02:52 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T15:05:31.923+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 15:05:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T15:12:53.419+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 15:12:53 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T15:15:56.571+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 15:15:56 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T15:18:14.712+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 15:18:14 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T15:20:02.811+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 15:20:02 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T15:20:32.844+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 15:20:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T15:22:53.972+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 15:22:53 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T15:30:33.378+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 15:30:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T15:32:54.528+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 15:32:54 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T15:40:30.929+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 15:40:30 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T15:42:55.061+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 15:42:55 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T15:45:31.204+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 15:45:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T15:45:55.232+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 15:45:55 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T15:52:37.633+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 15:52:37 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T15:52:55.651+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 15:52:55 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T15:55:31.801+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 15:55:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:00:53.095+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:00:53 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:02:56.214+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:02:56 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:05:32.361+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:05:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:07:53.490+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:07:53 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:08:49.425+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:08:49 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62519)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:08:49.441+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:08:49 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62520)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:08:49.656+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:08:49 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62521)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:08:54.431+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:08:54 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62537)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:08:54.449+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:08:54 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62539)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:08:54.452+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:08:54 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62538)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:08:56.546+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:08:56 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:09:20.604+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:09:20 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:09:41.627+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:09:41 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:09:48.307+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:09:48 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62648)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:09:48.320+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:09:48 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62649)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:09:48.560+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:09:48 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62650)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:09:50.345+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:09:50 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62670)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:09:50.345+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:09:50 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62669)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:09:50.471+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:09:50 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62671)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:09:50.570+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:09:50 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62674)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:09:50.578+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:09:50 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62675)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:09:50.580+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:09:50 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62676)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:09:50.637+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:09:50 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:09:53.754+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:09:53 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:10:02.764+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:10:02 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:10:29.790+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:10:29 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:10:32.793+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:10:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:10:53.809+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:10:53 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:11:20.838+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:11:20 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:11:23.841+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:11:23 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:11:26.844+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:11:26 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:11:32.849+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:11:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:11:44.608+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:11:44 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62888)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:11:49.490+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:11:49 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62889)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:11:49.790+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:11:49 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62890)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:11:50.867+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:11:50 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:11:56.565+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:11:56 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62895)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:11:56.566+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:11:56 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62896)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:12:56.928+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:12:56 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:13:04.315+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:13:04 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63034)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:13:04.369+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:13:04 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63035)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:13:04.606+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:13:04 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63036)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:13:17.868+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:13:17 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63045)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:13:18.075+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:13:18 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63050)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:13:24.025+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:13:24 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63054)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:13:24.028+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:13:24 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63057)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:13:24.035+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:13:24 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63056)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:13:24.038+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:13:24 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63055)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:13:26.955+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:13:26 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:15:03.106+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:15:03 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:15:33.132+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:15:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:15:46.716+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:15:46 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63283)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:15:48.716+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:15:48 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63289)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:15:48.727+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:15:48 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63288)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:15:48.728+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:15:48 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63287)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:15:48.729+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:15:48 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63285)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:15:48.731+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:15:48 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63286)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:15:51.871+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:15:51 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63314)) * handoff * http * 0
+ </txt>
+</msg>
+<msg time='2020-08-07T16:15:54.152+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>07-AUG-2020 16:15:54 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:27.579+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:27.589+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:27.589+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_1978_139788994508608.trc
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:27.589+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace level is currently 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:27.589+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:27.605+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Started with pid=1978
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:27.608+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:27.644+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:27.801+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listener completed notification to CRS on start
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:27.801+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:27.805+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>WARNING: Subscription for node down event still pending
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:27.805+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:13:27 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:30.921+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:30.921+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:13:30 * service_register * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:32.174+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:13:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:38.279+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:13:38 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:41.644+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:41.645+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:13:41 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:42.124+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:13:42 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:45.128+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:13:45 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:13:51.135+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:13:51 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:14:18.161+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:14:18 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:15:03.208+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:15:03 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:15:33.236+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:15:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:16:24.185+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:16:24 * 12502
+ </txt>
+</msg>
+<msg time='2020-08-08T02:16:24.185+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>TNS-12502: TNS:listener received no CONNECT_DATA from client
+ </txt>
+</msg>
+<msg time='2020-08-08T02:20:00.505+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:20:00 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:20:30.537+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:20:30 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:23:42.732+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:23:42 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:30:31.148+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:30:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:33:43.342+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:33:43 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:39:01.661+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:39:01 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:43:37.928+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:43:37 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:43:43.935+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:43:43 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:45:02.009+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:45:02 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:45:32.037+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:45:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:48:44.233+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:48:44 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T02:53:44.528+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 02:53:44 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T03:00:32.938+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 03:00:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T03:03:45.132+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 03:03:45 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T03:10:30.537+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 03:10:30 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T03:13:39.717+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 03:13:39 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T03:13:45.724+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 03:13:45 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T03:15:00.801+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 03:15:00 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T03:15:30.832+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 03:15:30 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T03:15:51.854+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 03:15:51 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T03:23:46.330+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 03:23:46 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T03:28:37.622+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 03:28:37 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T03:30:31.739+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 03:30:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T03:33:46.934+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 03:33:46 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-08T03:38:53.239+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>08-AUG-2020 03:38:53 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:18.288+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:18.309+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:18.309+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_1976_139678395127616.trc
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:18.309+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace level is currently 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:18.309+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:18.315+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Started with pid=1976
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:18.331+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:18.380+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:18.488+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listener completed notification to CRS on start
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:18.488+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:18.490+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>WARNING: Subscription for node down event still pending
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:18.490+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 15:34:18 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:21.237+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:21.237+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 15:34:21 * service_register * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:22.545+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 15:34:22 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:28.680+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 15:34:28 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:31.990+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:31.990+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 15:34:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:35.931+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 15:34:35 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:34:38.934+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 15:34:38 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:35:08.963+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 15:35:08 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:35:32.986+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 15:35:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:40:03.259+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 15:40:03 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:40:33.290+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 15:40:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:44:33.528+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 15:44:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:50:30.889+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 15:50:30 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:54:28.124+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 15:54:28 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:54:34.130+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 15:54:34 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:55:01.158+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 15:55:01 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:55:31.185+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 15:55:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T15:59:40.437+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 15:59:40 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T16:04:28.734+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 16:04:28 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T16:04:34.741+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 16:04:34 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T16:05:01.766+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 16:05:01 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-10T16:05:31.787+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>10-AUG-2020 16:05:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:17.273+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:17.280+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:17.280+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_1976_140145785395008.trc
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:17.280+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace level is currently 0
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:17.280+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:17.315+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Started with pid=1976
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:17.321+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:17.380+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:17.527+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listener completed notification to CRS on start
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:17.528+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:17.531+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>WARNING: Subscription for node down event still pending
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:17.531+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>11-AUG-2020 13:25:17 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:20.188+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:20.188+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>11-AUG-2020 13:25:20 * service_register * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:21.482+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>11-AUG-2020 13:25:21 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:27.613+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>11-AUG-2020 13:25:27 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:31.404+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:31.404+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>11-AUG-2020 13:25:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:32.573+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>11-AUG-2020 13:25:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:35.574+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>11-AUG-2020 13:25:35 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-11T13:25:38.575+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>11-AUG-2020 13:25:38 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-11T13:26:08.604+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>11-AUG-2020 13:26:08 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-11T13:30:02.846+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>11-AUG-2020 13:30:02 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-11T13:30:32.877+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>11-AUG-2020 13:30:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-11T13:35:03.147+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>11-AUG-2020 13:35:03 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-11T13:35:33.179+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>11-AUG-2020 13:35:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-11T13:45:33.778+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>11-AUG-2020 13:45:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:06.985+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:07.027+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:07.027+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_1971_139862482966336.trc
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:07.027+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace level is currently 0
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:07.027+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:07.042+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Started with pid=1971
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:07.081+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:07.155+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:07.332+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listener completed notification to CRS on start
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:07.333+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:07.335+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>WARNING: Subscription for node down event still pending
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:07.335+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 03:59:07 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:09.921+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:09.921+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 03:59:09 * service_register * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:11.206+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 03:59:11 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:17.325+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 03:59:17 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:22.028+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 03:59:22 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:23.944+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:23.944+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 03:59:23 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:26.938+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 03:59:26 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:32.945+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 03:59:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T03:59:59.965+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 03:59:59 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:00:32.996+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:00:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:05:03.262+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:05:03 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:05:33.289+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:05:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:09:24.516+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:09:24 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:15:30.870+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:15:30 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:19:16.096+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:19:16 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:19:25.102+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:19:25 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:20:01.138+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:20:01 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:20:31.167+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:20:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:25:01.444+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:25:01 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:25:31.474+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:25:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:29:25.704+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:29:25 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:34:32.009+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:34:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:35:32.068+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:35:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:39:26.307+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:39:26 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:44:17.598+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:44:17 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:49:26.903+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:49:26 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:50:32.968+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:50:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:54:27.201+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:54:27 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:59:18.500+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:59:18 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:59:24.506+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:59:24 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T04:59:27.509+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 04:59:27 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T05:00:00.542+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 05:00:00 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T05:00:30.573+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 05:00:30 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T05:09:28.101+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 05:09:28 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T05:10:31.163+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 05:10:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T05:14:28.401+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 05:14:28 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T05:15:01.436+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 05:15:01 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T05:15:31.460+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 05:15:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T05:19:28.700+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 05:19:28 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T05:24:32.001+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 05:24:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T05:29:17.279+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 05:29:17 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T05:29:29.292+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 05:29:29 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T05:39:29.883+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 05:39:29 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T05:40:32.944+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 05:40:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T05:49:30.475+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 05:49:30 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T05:50:30.539+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 05:50:30 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T05:55:30.842+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 05:55:30 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T05:59:19.066+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 05:59:19 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T05:59:31.079+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 05:59:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T06:00:31.137+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 06:00:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T06:05:31.447+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 06:05:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T06:09:31.680+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 06:09:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T06:15:32.041+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 06:15:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T06:16:05.077+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 06:16:05 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T06:19:32.281+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 06:19:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T06:24:35.563+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 06:24:35 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T06:29:17.833+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 06:29:17 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T06:29:32.847+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 06:29:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T06:39:33.435+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 06:39:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T06:40:30.494+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 06:40:30 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T06:49:34.032+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 06:49:34 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T06:50:31.093+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 06:50:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T06:55:31.399+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 06:55:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T06:59:19.618+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 06:59:19 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T06:59:34.633+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 06:59:34 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:00:31.693+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:00:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:04:40.938+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:04:40 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:09:35.226+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:09:35 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:15:32.589+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:15:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:19:17.812+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:19:17 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:19:35.830+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:19:35 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:24:48.150+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:24:48 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:29:18.424+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:29:18 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:29:36.444+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:29:36 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:30:00.464+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:30:00 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:30:33.498+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:30:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:35:00.779+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:35:00 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:35:30.810+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:35:30 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:39:37.062+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:39:37 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:45:31.417+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:45:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:49:37.660+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:49:37 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:50:31.714+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:50:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:54:52.990+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:54:52 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:59:20.254+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:59:20 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T07:59:38.273+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 07:59:38 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T08:00:26.323+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 08:00:26 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T08:00:32.330+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 08:00:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T08:05:02.602+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 08:05:02 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T08:05:32.630+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 08:05:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T08:09:38.879+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 08:09:38 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T08:15:33.229+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 08:15:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T08:19:39.480+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 08:19:39 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T08:20:30.528+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 08:20:30 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T08:25:00.793+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 08:25:00 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T08:25:30.823+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 08:25:30 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T08:29:40.080+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 08:29:40 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T08:30:31.130+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 08:30:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T08:34:58.397+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 08:34:58 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:15.306+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:15.351+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:15.351+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_1975_140395931481920.trc
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:15.351+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace level is currently 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:15.352+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:15.365+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Started with pid=1975
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:15.373+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:15.417+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:15.582+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listener completed notification to CRS on start
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:15.584+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:15.586+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>WARNING: Subscription for node down event still pending
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:15.586+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:31:15 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:18.051+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:18.052+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:31:18 * service_register * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:19.358+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:31:19 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:25.471+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:31:25 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:29.534+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:31:29 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:31.482+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:31.482+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:31:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:34.475+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:31:34 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:31:40.481+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:31:40 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:32:07.511+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:32:07 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:35:01.689+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:35:01 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:35:31.718+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:35:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:40:01.988+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:40:01 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:40:32.020+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:40:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:41:32.083+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:41:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:50:32.610+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:50:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:51:23.666+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:51:23 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:51:32.677+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:51:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:55:02.884+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:55:02 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:55:32.912+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:55:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T15:56:32.972+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 15:56:32 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T16:01:33.256+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 16:01:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T16:05:33.493+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 16:05:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T16:10:03.759+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 16:10:03 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T16:10:33.786+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 16:10:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-19T16:11:33.851+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>19-AUG-2020 16:11:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:27.196+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:27.215+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:27.215+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_1983_140356527966016.trc
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:27.215+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Trace level is currently 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:27.216+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:27.253+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Started with pid=1983
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:27.294+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:27.358+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:27.554+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listener completed notification to CRS on start
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:27.555+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:27.556+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>WARNING: Subscription for node down event still pending
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:27.556+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>20-AUG-2020 16:34:27 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:29.881+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:29.881+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>20-AUG-2020 16:34:29 * service_register * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:31.180+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>20-AUG-2020 16:34:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:37.279+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>20-AUG-2020 16:34:37 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:41.183+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:41.183+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>20-AUG-2020 16:34:41 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:42.445+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>20-AUG-2020 16:34:42 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:45.446+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>20-AUG-2020 16:34:45 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:34:48.450+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>20-AUG-2020 16:34:48 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:35:18.477+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>20-AUG-2020 16:35:18 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:35:33.488+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>20-AUG-2020 16:35:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:40:03.765+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>20-AUG-2020 16:40:03 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:40:33.796+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>20-AUG-2020 16:40:33 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:44:43.041+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>20-AUG-2020 16:44:43 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:50:31.392+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>20-AUG-2020 16:50:31 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:54:34.628+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>20-AUG-2020 16:54:34 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:54:43.638+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>20-AUG-2020 16:54:43 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:55:01.656+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>20-AUG-2020 16:55:01 * service_update * XE * 0
+ </txt>
+</msg>
+<msg time='2020-08-20T16:55:31.680+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='devops-server1'
+ host_addr='10.128.0.7'>
+ <txt>20-AUG-2020 16:55:31 * service_update * XE * 0
+ </txt>
+</msg>

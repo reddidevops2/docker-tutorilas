@@ -1,0 +1,41 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_ora_29519.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 1
+Oracle process number: 27
+Unix process pid: 29519, image: oracle@devops-server1 (TNS V1-V3)
+
+
+*** 2020-08-07 16:18:14.772
+*** SESSION ID:(100.301) 2020-08-07 16:18:14.772
+*** CLIENT ID:() 2020-08-07 16:18:14.772
+*** SERVICE NAME:(SYS$USERS) 2020-08-07 16:18:14.772
+*** MODULE NAME:(sqlplus@devops-server1 (TNS V1-V3)) 2020-08-07 16:18:14.772
+*** ACTION NAME:() 2020-08-07 16:18:14.772
+ 
+Stopping background process SMCO
+
+*** 2020-08-07 16:18:14.878
+Stopping background process QMNC
+
+*** 2020-08-07 16:18:15.878
+Stopping background process MMNL
+
+*** 2020-08-07 16:18:16.878
+Stopping background process MMON
+
+*** 2020-08-07 16:18:17.898
+ksukia: Starting kill, flags = 1
+ksukia: killed 0 out of 0 processes.
+*** 2020-08-07 16:18:17.998 4265 krsh.c
+ARCH: Archival disabled due to shutdown: 1089
+
+*** 2020-08-07 16:18:18.997
+*** 2020-08-07 16:18:18.997 4265 krsh.c
+ARCH: Archival disabled due to shutdown: 1089

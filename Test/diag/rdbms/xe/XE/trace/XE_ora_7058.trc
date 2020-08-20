@@ -1,0 +1,76 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_ora_7058.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 1
+Oracle process number: 22
+Unix process pid: 7058, image: oracle@devops-server1 (TNS V1-V3)
+
+
+*** 2020-08-03 15:52:43.196
+*** SESSION ID:(9.3) 2020-08-03 15:52:43.196
+*** CLIENT ID:() 2020-08-03 15:52:43.196
+*** SERVICE NAME:() 2020-08-03 15:52:43.196
+*** MODULE NAME:(sqlplus@devops-server1 (TNS V1-V3)) 2020-08-03 15:52:43.196
+*** ACTION NAME:() 2020-08-03 15:52:43.196
+ 
+Thread 1 checkpoint: logseq 2, block 3475, scn 354965
+  cache-low rba: logseq 2, block 3476
+    on-disk rba: logseq 2, block 4270, scn 355682
+  start recovery at logseq 2, block 3476, scn 0
+
+*** 2020-08-03 15:52:43.376
+Started writing zeroblks thread 1 seq 2 blocks 4270-4277
+
+*** 2020-08-03 15:52:43.376
+Completed writing zeroblks thread 1 seq 2
+==== Redo read statistics for thread 1 ====
+Total physical reads (from disk and memory): 4096Kb
+-- Redo read_disk statistics --
+Read rate (ASYNC): 397Kb in 0.18s => 2.15 Mb/sec
+Longest record: 8Kb, moves: 0/1229 (0%)
+Change moves: 0/21 (0%), moved: 0Mb
+Longest LWN: 31Kb, moves: 0/103 (0%), moved: 0Mb
+Last redo scn: 0x0000.00056d61 (355681)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 262144
+Longest hash chain = 1
+Average hash chain = 134/134 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 1947/2109 = 0.9
+----------------------------------------------
+
+*** 2020-08-03 15:52:43.386
+KCRA: start recovery claims for 134 data blocks
+
+*** 2020-08-03 15:52:44.131
+KCRA: blocks processed = 134/134, claimed = 134, eliminated = 0
+
+*** 2020-08-03 15:52:44.131
+Recovery of Online Redo Log: Thread 1 Group 2 Seq 2 Reading mem 0
+
+*** 2020-08-03 15:52:44.145
+Completed redo application of 0.29MB
+
+*** 2020-08-03 15:52:44.217
+Completed recovery checkpoint
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 262144
+Longest hash chain = 1
+Average hash chain = 134/134 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 2039/2081 = 1.0
+----------------------------------------------
+Recovery sets nab of thread 1 seq 2 to 4270 with 8 zeroblks
+
+*** 2020-08-03 15:52:47.515
+kwqmnich: current time:: 15: 52: 47: 0
+kwqmnich: instance no 0 repartition flag 1 
+kwqmnich: initialized job cache structure 
+kwqinfy: Call kwqrNondurSubInstTsk 

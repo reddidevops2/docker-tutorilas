@@ -1,0 +1,66 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_ora_6537.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 1
+Oracle process number: 31
+Unix process pid: 6537, image: oracle@devops-server1 (TNS V1-V3)
+
+
+*** 2020-08-19 08:35:08.465
+*** SESSION ID:(101.125) 2020-08-19 08:35:08.465
+*** CLIENT ID:() 2020-08-19 08:35:08.465
+*** SERVICE NAME:(SYS$USERS) 2020-08-19 08:35:08.465
+*** MODULE NAME:(sqlplus@devops-server1 (TNS V1-V3)) 2020-08-19 08:35:08.465
+*** ACTION NAME:() 2020-08-19 08:35:08.465
+ 
+Stopping background process SMCO
+
+*** 2020-08-19 08:35:09.496
+Stopping background process QMNC
+
+*** 2020-08-19 08:35:10.496
+Stopping background process MMNL
+
+*** 2020-08-19 08:35:11.496
+Stopping background process MMON
+
+*** 2020-08-19 08:35:12.546
+Process OS id : 6466 alive after kill
+----------------------------------------
+SO: 0x9ff634b8, type: 2, owner: (nil), flag: -/-/-/0x00 if: 0x3 c: 0x3
+ proc=0x9ff634b8, name=process, file=ksu.h LINE:12465, pg=0
+(process) Oracle pid:25, ser:22, calls cur/top: 0x9f634220/(nil)
+          flags : (0x0) -
+          flags2: (0x0),  flags3: (0x0) 
+          intr error: 1089, call error: 0, sess error: 0, txn error 1089
+          intr queue: 1089 
+  ksudlp FALSE at location: 0
+  (post info) last post received: 1089 72 12
+              last post received-location: ksu.h LINE:13769 ID:ksusig
+              last process to post me: 9ff697b8 13 0
+              last post sent: 0 0 350
+              last post sent-location: kkj.h LINE:934 ID:jslve_execute
+              last process posted by me: 9ff66638 1 0
+  (latch info) wait_event=0 bits=0
+  O/S info: user: oracle, term: UNKNOWN, ospid: 6466 (DEAD)
+  OSD pid info: Unix process pid: 6466, image: oracle@devops-server1 (J000)
+Short stack dump: ORA-00072: process "Unix process pid: 6466, image: oracle@devops-server1 (J000)" is not active
+PSO child state object changes :
+Dump of memory from 0x000000009FF3FFE0 to 0x000000009FF401E8
+09FF3FFE0 00000000 00000000 00000000 00000000  [................]
+        Repeat 31 times
+09FF401E0 00000000 00000000                    [........]        
+ksukia: Starting kill, flags = 1
+ksukia: killed 0 out of 0 processes.
+*** 2020-08-19 08:35:12.706 4265 krsh.c
+ARCH: Archival disabled due to shutdown: 1089
+
+*** 2020-08-19 08:35:13.717
+*** 2020-08-19 08:35:13.717 4265 krsh.c
+ARCH: Archival disabled due to shutdown: 1089

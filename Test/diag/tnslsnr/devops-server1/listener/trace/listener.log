@@ -1,0 +1,945 @@
+Mon Aug 03 15:45:12 2020
+Create Relation ADR_CONTROL
+Create Relation ADR_INVALIDATION
+Create Relation INC_METER_IMPT_DEF
+Create Relation INC_METER_PK_IMPTS
+System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_3774_139826322560832.trc
+Trace level is currently 0
+
+Started with pid=3774
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+Listener completed notification to CRS on start
+
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+WARNING: Subscription for node down event still pending
+03-AUG-2020 15:45:13 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+03-AUG-2020 15:45:17 * service_register * XE * 0
+03-AUG-2020 15:45:18 * service_update * XE * 0
+Mon Aug 03 15:45:49 2020
+03-AUG-2020 15:45:49 * service_died * XE * 12537
+Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+03-AUG-2020 15:45:53 * service_register * XE * 0
+03-AUG-2020 15:45:54 * service_update * XE * 0
+03-AUG-2020 15:45:56 * service_update * XE * 0
+Mon Aug 03 15:46:01 2020
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=8080))(Presentation=HTTP)(Session=RAW))
+03-AUG-2020 15:46:01 * service_update * XE * 0
+03-AUG-2020 15:46:04 * service_update * XE * 0
+No longer listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=127.0.0.1)(PORT=8080))(Presentation=HTTP)(Session=RAW))
+03-AUG-2020 15:46:08 * service_update * XE * 0
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+03-AUG-2020 15:46:11 * service_update * XE * 0
+Mon Aug 03 15:46:17 2020
+03-AUG-2020 15:46:17 * service_update * XE * 0
+03-AUG-2020 15:46:17 * service_update * XE * 0
+03-AUG-2020 15:46:17 * service_update * XE * 0
+03-AUG-2020 15:46:17 * service_update * XE * 0
+03-AUG-2020 15:46:17 * service_update * XE * 0
+No longer listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+03-AUG-2020 15:46:17 * service_died * XE * 12537
+Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+03-AUG-2020 15:46:22 * service_register * XE * 0
+03-AUG-2020 15:46:23 * service_update * XE * 0
+Mon Aug 03 15:46:27 2020
+03-AUG-2020 15:46:27 * service_update * XE * 0
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+03-AUG-2020 15:46:28 * service_update * XE * 0
+03-AUG-2020 15:46:31 * service_update * XE * 0
+Mon Aug 03 15:48:25 2020
+03-AUG-2020 15:48:25 * service_update * XE * 0
+Mon Aug 03 15:52:32 2020
+System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_2735_139948921489216.trc
+Trace level is currently 0
+
+Started with pid=2735
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+Listener completed notification to CRS on start
+
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+WARNING: Subscription for node down event still pending
+03-AUG-2020 15:52:33 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+03-AUG-2020 15:52:38 * service_register * XE * 0
+03-AUG-2020 15:52:38 * service_update * XE * 0
+Mon Aug 03 15:52:44 2020
+03-AUG-2020 15:52:44 * service_update * XE * 0
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+03-AUG-2020 15:52:49 * service_update * XE * 0
+03-AUG-2020 15:52:50 * service_update * XE * 0
+03-AUG-2020 15:52:53 * service_update * XE * 0
+Mon Aug 03 15:55:02 2020
+03-AUG-2020 15:55:02 * service_update * XE * 0
+Mon Aug 03 15:55:32 2020
+03-AUG-2020 15:55:32 * service_update * XE * 0
+Mon Aug 03 15:56:17 2020
+03-AUG-2020 15:56:17 * service_update * XE * 0
+Mon Aug 03 16:00:02 2020
+03-AUG-2020 16:00:02 * service_update * XE * 0
+Mon Aug 03 16:00:32 2020
+03-AUG-2020 16:00:32 * service_update * XE * 0
+Mon Aug 03 16:02:50 2020
+03-AUG-2020 16:02:50 * service_update * XE * 0
+Fri Aug 07 05:21:43 2020
+System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_1977_140571130578752.trc
+Trace level is currently 0
+
+Started with pid=1977
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+Listener completed notification to CRS on start
+
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+WARNING: Subscription for node down event still pending
+07-AUG-2020 05:21:43 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+07-AUG-2020 05:21:45 * service_register * XE * 0
+07-AUG-2020 05:21:46 * service_update * XE * 0
+07-AUG-2020 05:21:52 * service_update * XE * 0
+Fri Aug 07 05:21:56 2020
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+07-AUG-2020 05:21:56 * service_update * XE * 0
+07-AUG-2020 05:21:57 * service_update * XE * 0
+07-AUG-2020 05:22:00 * service_update * XE * 0
+07-AUG-2020 05:22:03 * service_update * XE * 0
+Fri Aug 07 05:22:33 2020
+07-AUG-2020 05:22:33 * service_update * XE * 0
+Fri Aug 07 05:25:03 2020
+07-AUG-2020 05:25:03 * service_update * XE * 0
+Fri Aug 07 05:25:33 2020
+07-AUG-2020 05:25:33 * service_update * XE * 0
+Fri Aug 07 05:30:00 2020
+07-AUG-2020 05:30:00 * service_update * XE * 0
+Fri Aug 07 05:30:30 2020
+07-AUG-2020 05:30:30 * service_update * XE * 0
+Fri Aug 07 05:31:57 2020
+07-AUG-2020 05:31:57 * service_update * XE * 0
+Fri Aug 07 05:40:31 2020
+07-AUG-2020 05:40:31 * service_update * XE * 0
+Fri Aug 07 05:41:52 2020
+07-AUG-2020 05:41:52 * service_update * XE * 0
+07-AUG-2020 05:41:58 * service_update * XE * 0
+Fri Aug 07 05:45:01 2020
+07-AUG-2020 05:45:01 * service_update * XE * 0
+Fri Aug 07 05:45:31 2020
+07-AUG-2020 05:45:31 * service_update * XE * 0
+Fri Aug 07 05:47:01 2020
+07-AUG-2020 05:47:01 * service_update * XE * 0
+Fri Aug 07 05:51:58 2020
+07-AUG-2020 05:51:58 * service_update * XE * 0
+Fri Aug 07 05:55:31 2020
+07-AUG-2020 05:55:31 * service_update * XE * 0
+Fri Aug 07 10:31:47 2020
+System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_1983_139755582957376.trc
+Trace level is currently 0
+
+Started with pid=1983
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+Listener completed notification to CRS on start
+
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+WARNING: Subscription for node down event still pending
+07-AUG-2020 10:31:47 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+07-AUG-2020 10:31:49 * service_register * XE * 0
+07-AUG-2020 10:31:50 * service_update * XE * 0
+07-AUG-2020 10:31:56 * service_update * XE * 0
+Fri Aug 07 10:32:00 2020
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+07-AUG-2020 10:32:00 * service_update * XE * 0
+07-AUG-2020 10:32:00 * service_update * XE * 0
+07-AUG-2020 10:32:03 * service_update * XE * 0
+07-AUG-2020 10:32:06 * service_update * XE * 0
+Fri Aug 07 10:32:36 2020
+07-AUG-2020 10:32:36 * service_update * XE * 0
+Fri Aug 07 10:35:01 2020
+07-AUG-2020 10:35:01 * service_update * XE * 0
+Fri Aug 07 10:35:31 2020
+07-AUG-2020 10:35:31 * service_update * XE * 0
+Fri Aug 07 10:40:01 2020
+07-AUG-2020 10:40:01 * service_update * XE * 0
+Fri Aug 07 10:40:31 2020
+07-AUG-2020 10:40:31 * service_update * XE * 0
+Fri Aug 07 10:42:01 2020
+07-AUG-2020 10:42:01 * service_update * XE * 0
+Fri Aug 07 10:50:32 2020
+07-AUG-2020 10:50:32 * service_update * XE * 0
+Fri Aug 07 10:52:24 2020
+System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_1970_139818965350208.trc
+Trace level is currently 0
+
+Started with pid=1970
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+Listener completed notification to CRS on start
+
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+WARNING: Subscription for node down event still pending
+07-AUG-2020 10:52:25 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+07-AUG-2020 10:52:27 * service_register * XE * 0
+07-AUG-2020 10:52:28 * service_update * XE * 0
+07-AUG-2020 10:52:34 * service_update * XE * 0
+Fri Aug 07 10:52:38 2020
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+07-AUG-2020 10:52:38 * service_update * XE * 0
+07-AUG-2020 10:52:38 * service_update * XE * 0
+07-AUG-2020 10:52:41 * service_update * XE * 0
+Fri Aug 07 10:58:06 2020
+07-AUG-2020 10:58:06 * service_update * XE * 0
+Fri Aug 07 11:00:33 2020
+07-AUG-2020 11:00:33 * service_update * XE * 0
+Fri Aug 07 11:02:39 2020
+07-AUG-2020 11:02:39 * service_update * XE * 0
+Fri Aug 07 11:05:33 2020
+07-AUG-2020 11:05:33 * service_update * XE * 0
+Fri Aug 07 11:12:34 2020
+07-AUG-2020 11:12:34 * service_update * XE * 0
+07-AUG-2020 11:12:40 * service_update * XE * 0
+Fri Aug 07 11:15:01 2020
+07-AUG-2020 11:15:01 * service_update * XE * 0
+Fri Aug 07 11:15:31 2020
+07-AUG-2020 11:15:31 * service_update * XE * 0
+Fri Aug 07 11:22:40 2020
+07-AUG-2020 11:22:40 * service_update * XE * 0
+Fri Aug 07 11:25:31 2020
+07-AUG-2020 11:25:31 * service_update * XE * 0
+Fri Aug 07 11:27:40 2020
+07-AUG-2020 11:27:40 * service_update * XE * 0
+Fri Aug 07 11:32:41 2020
+07-AUG-2020 11:32:41 * service_update * XE * 0
+Fri Aug 07 11:35:32 2020
+07-AUG-2020 11:35:32 * service_update * XE * 0
+Fri Aug 07 11:37:44 2020
+07-AUG-2020 11:37:44 * service_update * XE * 0
+Fri Aug 07 11:40:02 2020
+07-AUG-2020 11:40:02 * service_update * XE * 0
+Fri Aug 07 11:40:32 2020
+07-AUG-2020 11:40:32 * service_update * XE * 0
+Fri Aug 07 11:42:41 2020
+07-AUG-2020 11:42:41 * service_update * XE * 0
+Fri Aug 07 11:52:36 2020
+07-AUG-2020 11:52:36 * service_update * XE * 0
+07-AUG-2020 11:52:39 * service_update * XE * 0
+07-AUG-2020 11:52:42 * service_update * XE * 0
+Fri Aug 07 12:00:33 2020
+07-AUG-2020 12:00:33 * service_update * XE * 0
+Fri Aug 07 12:02:33 2020
+07-AUG-2020 12:02:33 * service_update * XE * 0
+07-AUG-2020 12:02:42 * service_update * XE * 0
+Fri Aug 07 12:12:34 2020
+07-AUG-2020 12:12:34 * service_update * XE * 0
+07-AUG-2020 12:12:43 * service_update * XE * 0
+Fri Aug 07 12:15:01 2020
+07-AUG-2020 12:15:01 * service_update * XE * 0
+Fri Aug 07 12:15:31 2020
+07-AUG-2020 12:15:31 * service_update * XE * 0
+Fri Aug 07 12:15:49 2020
+07-AUG-2020 12:15:49 * service_update * XE * 0
+Fri Aug 07 12:17:46 2020
+07-AUG-2020 12:17:46 * service_update * XE * 0
+Fri Aug 07 12:22:44 2020
+07-AUG-2020 12:22:44 * service_update * XE * 0
+Fri Aug 07 12:25:32 2020
+07-AUG-2020 12:25:32 * service_update * XE * 0
+Fri Aug 07 12:32:44 2020
+07-AUG-2020 12:32:44 * service_update * XE * 0
+Fri Aug 07 12:35:32 2020
+07-AUG-2020 12:35:32 * service_update * XE * 0
+Fri Aug 07 12:37:50 2020
+07-AUG-2020 12:37:50 * service_update * XE * 0
+Fri Aug 07 12:40:02 2020
+07-AUG-2020 12:40:02 * service_update * XE * 0
+Fri Aug 07 12:40:33 2020
+07-AUG-2020 12:40:33 * service_update * XE * 0
+Fri Aug 07 12:42:45 2020
+07-AUG-2020 12:42:45 * service_update * XE * 0
+Fri Aug 07 12:52:36 2020
+07-AUG-2020 12:52:36 * service_update * XE * 0
+07-AUG-2020 12:52:45 * service_update * XE * 0
+Fri Aug 07 12:55:00 2020
+07-AUG-2020 12:55:00 * service_update * XE * 0
+Fri Aug 07 12:55:30 2020
+07-AUG-2020 12:55:30 * service_update * XE * 0
+Fri Aug 07 13:02:46 2020
+07-AUG-2020 13:02:46 * service_update * XE * 0
+Fri Aug 07 13:05:31 2020
+07-AUG-2020 13:05:31 * service_update * XE * 0
+Fri Aug 07 13:12:46 2020
+07-AUG-2020 13:12:46 * service_update * XE * 0
+Fri Aug 07 13:15:46 2020
+07-AUG-2020 13:15:46 * service_update * XE * 0
+Fri Aug 07 13:17:56 2020
+07-AUG-2020 13:17:56 * service_update * XE * 0
+Fri Aug 07 13:20:02 2020
+07-AUG-2020 13:20:02 * service_update * XE * 0
+Fri Aug 07 13:20:32 2020
+07-AUG-2020 13:20:32 * service_update * XE * 0
+Fri Aug 07 13:22:47 2020
+07-AUG-2020 13:22:47 * service_update * XE * 0
+Fri Aug 07 13:30:32 2020
+07-AUG-2020 13:30:32 * service_update * XE * 0
+Fri Aug 07 13:32:35 2020
+07-AUG-2020 13:32:35 * service_update * XE * 0
+Fri Aug 07 13:32:47 2020
+07-AUG-2020 13:32:47 * service_update * XE * 0
+Fri Aug 07 13:35:02 2020
+07-AUG-2020 13:35:02 * service_update * XE * 0
+Fri Aug 07 13:35:33 2020
+07-AUG-2020 13:35:33 * service_update * XE * 0
+Fri Aug 07 13:42:48 2020
+07-AUG-2020 13:42:48 * service_update * XE * 0
+Fri Aug 07 13:45:33 2020
+07-AUG-2020 13:45:33 * service_update * XE * 0
+Fri Aug 07 13:48:03 2020
+07-AUG-2020 13:48:03 * service_update * XE * 0
+Fri Aug 07 13:50:30 2020
+07-AUG-2020 13:50:30 * service_update * XE * 0
+07-AUG-2020 13:50:33 * service_update * XE * 0
+Fri Aug 07 13:52:48 2020
+07-AUG-2020 13:52:48 * service_update * XE * 0
+Fri Aug 07 13:55:31 2020
+07-AUG-2020 13:55:31 * service_update * XE * 0
+Fri Aug 07 13:58:07 2020
+07-AUG-2020 13:58:07 * service_update * XE * 0
+Fri Aug 07 14:00:31 2020
+07-AUG-2020 14:00:31 * service_update * XE * 0
+Fri Aug 07 14:02:49 2020
+07-AUG-2020 14:02:49 * service_update * XE * 0
+Fri Aug 07 14:10:31 2020
+07-AUG-2020 14:10:31 * service_update * XE * 0
+Fri Aug 07 14:12:35 2020
+07-AUG-2020 14:12:35 * service_update * XE * 0
+Fri Aug 07 14:12:50 2020
+07-AUG-2020 14:12:50 * service_update * XE * 0
+Fri Aug 07 14:15:02 2020
+07-AUG-2020 14:15:02 * service_update * XE * 0
+Fri Aug 07 14:15:32 2020
+07-AUG-2020 14:15:32 * service_update * XE * 0
+Fri Aug 07 14:15:53 2020
+07-AUG-2020 14:15:53 * service_update * XE * 0
+Fri Aug 07 14:20:04 2020
+07-AUG-2020 14:20:04 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=121.8.164.114)(PORT=42381)) * handoff * http * 0
+Fri Aug 07 14:22:50 2020
+07-AUG-2020 14:22:50 * service_update * XE * 0
+Fri Aug 07 14:25:32 2020
+07-AUG-2020 14:25:32 * service_update * XE * 0
+Fri Aug 07 14:32:51 2020
+07-AUG-2020 14:32:51 * service_update * XE * 0
+Fri Aug 07 14:37:36 2020
+07-AUG-2020 14:37:36 * service_update * XE * 0
+Fri Aug 07 14:38:12 2020
+07-AUG-2020 14:38:12 * service_update * XE * 0
+Fri Aug 07 14:40:03 2020
+07-AUG-2020 14:40:03 * service_update * XE * 0
+Fri Aug 07 14:40:33 2020
+07-AUG-2020 14:40:33 * service_update * XE * 0
+Fri Aug 07 14:42:51 2020
+07-AUG-2020 14:42:51 * service_update * XE * 0
+Fri Aug 07 14:52:37 2020
+07-AUG-2020 14:52:37 * service_update * XE * 0
+Fri Aug 07 14:52:52 2020
+07-AUG-2020 14:52:52 * service_update * XE * 0
+Fri Aug 07 14:55:01 2020
+07-AUG-2020 14:55:01 * service_update * XE * 0
+Fri Aug 07 14:55:31 2020
+07-AUG-2020 14:55:31 * service_update * XE * 0
+Fri Aug 07 15:02:52 2020
+07-AUG-2020 15:02:52 * service_update * XE * 0
+Fri Aug 07 15:05:31 2020
+07-AUG-2020 15:05:31 * service_update * XE * 0
+Fri Aug 07 15:12:53 2020
+07-AUG-2020 15:12:53 * service_update * XE * 0
+Fri Aug 07 15:15:56 2020
+07-AUG-2020 15:15:56 * service_update * XE * 0
+Fri Aug 07 15:18:14 2020
+07-AUG-2020 15:18:14 * service_update * XE * 0
+Fri Aug 07 15:20:02 2020
+07-AUG-2020 15:20:02 * service_update * XE * 0
+Fri Aug 07 15:20:32 2020
+07-AUG-2020 15:20:32 * service_update * XE * 0
+Fri Aug 07 15:22:53 2020
+07-AUG-2020 15:22:53 * service_update * XE * 0
+Fri Aug 07 15:30:33 2020
+07-AUG-2020 15:30:33 * service_update * XE * 0
+Fri Aug 07 15:32:54 2020
+07-AUG-2020 15:32:54 * service_update * XE * 0
+Fri Aug 07 15:40:30 2020
+07-AUG-2020 15:40:30 * service_update * XE * 0
+Fri Aug 07 15:42:55 2020
+07-AUG-2020 15:42:55 * service_update * XE * 0
+Fri Aug 07 15:45:31 2020
+07-AUG-2020 15:45:31 * service_update * XE * 0
+Fri Aug 07 15:45:55 2020
+07-AUG-2020 15:45:55 * service_update * XE * 0
+Fri Aug 07 15:52:37 2020
+07-AUG-2020 15:52:37 * service_update * XE * 0
+Fri Aug 07 15:52:55 2020
+07-AUG-2020 15:52:55 * service_update * XE * 0
+Fri Aug 07 15:55:31 2020
+07-AUG-2020 15:55:31 * service_update * XE * 0
+Fri Aug 07 16:00:53 2020
+07-AUG-2020 16:00:53 * service_update * XE * 0
+Fri Aug 07 16:02:56 2020
+07-AUG-2020 16:02:56 * service_update * XE * 0
+Fri Aug 07 16:05:32 2020
+07-AUG-2020 16:05:32 * service_update * XE * 0
+Fri Aug 07 16:07:53 2020
+07-AUG-2020 16:07:53 * service_update * XE * 0
+Fri Aug 07 16:08:49 2020
+07-AUG-2020 16:08:49 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62519)) * handoff * http * 0
+07-AUG-2020 16:08:49 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62520)) * handoff * http * 0
+07-AUG-2020 16:08:49 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62521)) * handoff * http * 0
+07-AUG-2020 16:08:54 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62537)) * handoff * http * 0
+07-AUG-2020 16:08:54 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62539)) * handoff * http * 0
+07-AUG-2020 16:08:54 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62538)) * handoff * http * 0
+07-AUG-2020 16:08:56 * service_update * XE * 0
+Fri Aug 07 16:09:20 2020
+07-AUG-2020 16:09:20 * service_update * XE * 0
+Fri Aug 07 16:09:41 2020
+07-AUG-2020 16:09:41 * service_update * XE * 0
+07-AUG-2020 16:09:48 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62648)) * handoff * http * 0
+07-AUG-2020 16:09:48 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62649)) * handoff * http * 0
+07-AUG-2020 16:09:48 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62650)) * handoff * http * 0
+07-AUG-2020 16:09:50 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62670)) * handoff * http * 0
+07-AUG-2020 16:09:50 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62669)) * handoff * http * 0
+07-AUG-2020 16:09:50 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62671)) * handoff * http * 0
+07-AUG-2020 16:09:50 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62674)) * handoff * http * 0
+07-AUG-2020 16:09:50 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62675)) * handoff * http * 0
+07-AUG-2020 16:09:50 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62676)) * handoff * http * 0
+07-AUG-2020 16:09:50 * service_update * XE * 0
+Fri Aug 07 16:09:53 2020
+07-AUG-2020 16:09:53 * service_update * XE * 0
+07-AUG-2020 16:10:02 * service_update * XE * 0
+Fri Aug 07 16:10:29 2020
+07-AUG-2020 16:10:29 * service_update * XE * 0
+07-AUG-2020 16:10:32 * service_update * XE * 0
+Fri Aug 07 16:10:53 2020
+07-AUG-2020 16:10:53 * service_update * XE * 0
+Fri Aug 07 16:11:20 2020
+07-AUG-2020 16:11:20 * service_update * XE * 0
+07-AUG-2020 16:11:23 * service_update * XE * 0
+07-AUG-2020 16:11:26 * service_update * XE * 0
+Fri Aug 07 16:11:32 2020
+07-AUG-2020 16:11:32 * service_update * XE * 0
+Fri Aug 07 16:11:44 2020
+07-AUG-2020 16:11:44 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62888)) * handoff * http * 0
+07-AUG-2020 16:11:49 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62889)) * handoff * http * 0
+07-AUG-2020 16:11:49 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62890)) * handoff * http * 0
+07-AUG-2020 16:11:50 * service_update * XE * 0
+Fri Aug 07 16:11:56 2020
+07-AUG-2020 16:11:56 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62895)) * handoff * http * 0
+07-AUG-2020 16:11:56 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=62896)) * handoff * http * 0
+Fri Aug 07 16:12:56 2020
+07-AUG-2020 16:12:56 * service_update * XE * 0
+07-AUG-2020 16:13:04 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63034)) * handoff * http * 0
+07-AUG-2020 16:13:04 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63035)) * handoff * http * 0
+07-AUG-2020 16:13:04 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63036)) * handoff * http * 0
+Fri Aug 07 16:13:17 2020
+07-AUG-2020 16:13:17 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63045)) * handoff * http * 0
+07-AUG-2020 16:13:18 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63050)) * handoff * http * 0
+07-AUG-2020 16:13:24 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63054)) * handoff * http * 0
+07-AUG-2020 16:13:24 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63057)) * handoff * http * 0
+07-AUG-2020 16:13:24 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63056)) * handoff * http * 0
+07-AUG-2020 16:13:24 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63055)) * handoff * http * 0
+07-AUG-2020 16:13:26 * service_update * XE * 0
+Fri Aug 07 16:15:03 2020
+07-AUG-2020 16:15:03 * service_update * XE * 0
+Fri Aug 07 16:15:33 2020
+07-AUG-2020 16:15:33 * service_update * XE * 0
+Fri Aug 07 16:15:46 2020
+07-AUG-2020 16:15:46 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63283)) * handoff * http * 0
+07-AUG-2020 16:15:48 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63289)) * handoff * http * 0
+07-AUG-2020 16:15:48 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63288)) * handoff * http * 0
+07-AUG-2020 16:15:48 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63287)) * handoff * http * 0
+07-AUG-2020 16:15:48 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63285)) * handoff * http * 0
+07-AUG-2020 16:15:48 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63286)) * handoff * http * 0
+07-AUG-2020 16:15:51 * http * (ADDRESS=(PROTOCOL=tcp)(HOST=157.44.124.242)(PORT=63314)) * handoff * http * 0
+07-AUG-2020 16:15:54 * service_update * XE * 0
+Sat Aug 08 02:13:27 2020
+System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_1978_139788994508608.trc
+Trace level is currently 0
+
+Started with pid=1978
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+Listener completed notification to CRS on start
+
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+WARNING: Subscription for node down event still pending
+08-AUG-2020 02:13:27 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+08-AUG-2020 02:13:30 * service_register * XE * 0
+08-AUG-2020 02:13:32 * service_update * XE * 0
+Sat Aug 08 02:13:38 2020
+08-AUG-2020 02:13:38 * service_update * XE * 0
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+08-AUG-2020 02:13:41 * service_update * XE * 0
+08-AUG-2020 02:13:42 * service_update * XE * 0
+08-AUG-2020 02:13:45 * service_update * XE * 0
+Sat Aug 08 02:13:51 2020
+08-AUG-2020 02:13:51 * service_update * XE * 0
+Sat Aug 08 02:14:18 2020
+08-AUG-2020 02:14:18 * service_update * XE * 0
+Sat Aug 08 02:15:03 2020
+08-AUG-2020 02:15:03 * service_update * XE * 0
+Sat Aug 08 02:15:33 2020
+08-AUG-2020 02:15:33 * service_update * XE * 0
+Sat Aug 08 02:16:24 2020
+08-AUG-2020 02:16:24 * 12502
+TNS-12502: TNS:listener received no CONNECT_DATA from client
+Sat Aug 08 02:20:00 2020
+08-AUG-2020 02:20:00 * service_update * XE * 0
+Sat Aug 08 02:20:30 2020
+08-AUG-2020 02:20:30 * service_update * XE * 0
+Sat Aug 08 02:23:42 2020
+08-AUG-2020 02:23:42 * service_update * XE * 0
+Sat Aug 08 02:30:31 2020
+08-AUG-2020 02:30:31 * service_update * XE * 0
+Sat Aug 08 02:33:43 2020
+08-AUG-2020 02:33:43 * service_update * XE * 0
+Sat Aug 08 02:39:01 2020
+08-AUG-2020 02:39:01 * service_update * XE * 0
+Sat Aug 08 02:43:37 2020
+08-AUG-2020 02:43:37 * service_update * XE * 0
+08-AUG-2020 02:43:43 * service_update * XE * 0
+Sat Aug 08 02:45:02 2020
+08-AUG-2020 02:45:02 * service_update * XE * 0
+Sat Aug 08 02:45:32 2020
+08-AUG-2020 02:45:32 * service_update * XE * 0
+Sat Aug 08 02:48:44 2020
+08-AUG-2020 02:48:44 * service_update * XE * 0
+Sat Aug 08 02:53:44 2020
+08-AUG-2020 02:53:44 * service_update * XE * 0
+Sat Aug 08 03:00:32 2020
+08-AUG-2020 03:00:32 * service_update * XE * 0
+Sat Aug 08 03:03:45 2020
+08-AUG-2020 03:03:45 * service_update * XE * 0
+Sat Aug 08 03:10:30 2020
+08-AUG-2020 03:10:30 * service_update * XE * 0
+Sat Aug 08 03:13:39 2020
+08-AUG-2020 03:13:39 * service_update * XE * 0
+08-AUG-2020 03:13:45 * service_update * XE * 0
+Sat Aug 08 03:15:00 2020
+08-AUG-2020 03:15:00 * service_update * XE * 0
+Sat Aug 08 03:15:30 2020
+08-AUG-2020 03:15:30 * service_update * XE * 0
+Sat Aug 08 03:15:51 2020
+08-AUG-2020 03:15:51 * service_update * XE * 0
+Sat Aug 08 03:23:46 2020
+08-AUG-2020 03:23:46 * service_update * XE * 0
+Sat Aug 08 03:28:37 2020
+08-AUG-2020 03:28:37 * service_update * XE * 0
+Sat Aug 08 03:30:31 2020
+08-AUG-2020 03:30:31 * service_update * XE * 0
+Sat Aug 08 03:33:46 2020
+08-AUG-2020 03:33:46 * service_update * XE * 0
+Sat Aug 08 03:38:53 2020
+08-AUG-2020 03:38:53 * service_update * XE * 0
+Mon Aug 10 15:34:18 2020
+System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_1976_139678395127616.trc
+Trace level is currently 0
+
+Started with pid=1976
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+Listener completed notification to CRS on start
+
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+WARNING: Subscription for node down event still pending
+10-AUG-2020 15:34:18 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+10-AUG-2020 15:34:21 * service_register * XE * 0
+10-AUG-2020 15:34:22 * service_update * XE * 0
+Mon Aug 10 15:34:28 2020
+10-AUG-2020 15:34:28 * service_update * XE * 0
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+10-AUG-2020 15:34:31 * service_update * XE * 0
+10-AUG-2020 15:34:35 * service_update * XE * 0
+Mon Aug 10 15:34:38 2020
+10-AUG-2020 15:34:38 * service_update * XE * 0
+Mon Aug 10 15:35:08 2020
+10-AUG-2020 15:35:08 * service_update * XE * 0
+Mon Aug 10 15:35:32 2020
+10-AUG-2020 15:35:32 * service_update * XE * 0
+Mon Aug 10 15:40:03 2020
+10-AUG-2020 15:40:03 * service_update * XE * 0
+Mon Aug 10 15:40:33 2020
+10-AUG-2020 15:40:33 * service_update * XE * 0
+Mon Aug 10 15:44:33 2020
+10-AUG-2020 15:44:33 * service_update * XE * 0
+Mon Aug 10 15:50:30 2020
+10-AUG-2020 15:50:30 * service_update * XE * 0
+Mon Aug 10 15:54:28 2020
+10-AUG-2020 15:54:28 * service_update * XE * 0
+10-AUG-2020 15:54:34 * service_update * XE * 0
+Mon Aug 10 15:55:01 2020
+10-AUG-2020 15:55:01 * service_update * XE * 0
+Mon Aug 10 15:55:31 2020
+10-AUG-2020 15:55:31 * service_update * XE * 0
+Mon Aug 10 15:59:40 2020
+10-AUG-2020 15:59:40 * service_update * XE * 0
+Mon Aug 10 16:04:28 2020
+10-AUG-2020 16:04:28 * service_update * XE * 0
+10-AUG-2020 16:04:34 * service_update * XE * 0
+Mon Aug 10 16:05:01 2020
+10-AUG-2020 16:05:01 * service_update * XE * 0
+Mon Aug 10 16:05:31 2020
+10-AUG-2020 16:05:31 * service_update * XE * 0
+Tue Aug 11 13:25:17 2020
+System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_1976_140145785395008.trc
+Trace level is currently 0
+
+Started with pid=1976
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+Listener completed notification to CRS on start
+
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+WARNING: Subscription for node down event still pending
+11-AUG-2020 13:25:17 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+11-AUG-2020 13:25:20 * service_register * XE * 0
+11-AUG-2020 13:25:21 * service_update * XE * 0
+Tue Aug 11 13:25:27 2020
+11-AUG-2020 13:25:27 * service_update * XE * 0
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+11-AUG-2020 13:25:31 * service_update * XE * 0
+11-AUG-2020 13:25:32 * service_update * XE * 0
+11-AUG-2020 13:25:35 * service_update * XE * 0
+Tue Aug 11 13:25:38 2020
+11-AUG-2020 13:25:38 * service_update * XE * 0
+Tue Aug 11 13:26:08 2020
+11-AUG-2020 13:26:08 * service_update * XE * 0
+Tue Aug 11 13:30:02 2020
+11-AUG-2020 13:30:02 * service_update * XE * 0
+Tue Aug 11 13:30:32 2020
+11-AUG-2020 13:30:32 * service_update * XE * 0
+Tue Aug 11 13:35:03 2020
+11-AUG-2020 13:35:03 * service_update * XE * 0
+Tue Aug 11 13:35:33 2020
+11-AUG-2020 13:35:33 * service_update * XE * 0
+Tue Aug 11 13:45:33 2020
+11-AUG-2020 13:45:33 * service_update * XE * 0
+Wed Aug 19 03:59:06 2020
+System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_1971_139862482966336.trc
+Trace level is currently 0
+
+Started with pid=1971
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+Listener completed notification to CRS on start
+
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+WARNING: Subscription for node down event still pending
+19-AUG-2020 03:59:07 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+19-AUG-2020 03:59:09 * service_register * XE * 0
+19-AUG-2020 03:59:11 * service_update * XE * 0
+Wed Aug 19 03:59:17 2020
+19-AUG-2020 03:59:17 * service_update * XE * 0
+19-AUG-2020 03:59:22 * service_update * XE * 0
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+19-AUG-2020 03:59:23 * service_update * XE * 0
+19-AUG-2020 03:59:26 * service_update * XE * 0
+Wed Aug 19 03:59:32 2020
+19-AUG-2020 03:59:32 * service_update * XE * 0
+Wed Aug 19 03:59:59 2020
+19-AUG-2020 03:59:59 * service_update * XE * 0
+Wed Aug 19 04:00:32 2020
+19-AUG-2020 04:00:32 * service_update * XE * 0
+Wed Aug 19 04:05:03 2020
+19-AUG-2020 04:05:03 * service_update * XE * 0
+Wed Aug 19 04:05:33 2020
+19-AUG-2020 04:05:33 * service_update * XE * 0
+Wed Aug 19 04:09:24 2020
+19-AUG-2020 04:09:24 * service_update * XE * 0
+Wed Aug 19 04:15:30 2020
+19-AUG-2020 04:15:30 * service_update * XE * 0
+Wed Aug 19 04:19:16 2020
+19-AUG-2020 04:19:16 * service_update * XE * 0
+19-AUG-2020 04:19:25 * service_update * XE * 0
+Wed Aug 19 04:20:01 2020
+19-AUG-2020 04:20:01 * service_update * XE * 0
+Wed Aug 19 04:20:31 2020
+19-AUG-2020 04:20:31 * service_update * XE * 0
+Wed Aug 19 04:25:01 2020
+19-AUG-2020 04:25:01 * service_update * XE * 0
+Wed Aug 19 04:25:31 2020
+19-AUG-2020 04:25:31 * service_update * XE * 0
+Wed Aug 19 04:29:25 2020
+19-AUG-2020 04:29:25 * service_update * XE * 0
+Wed Aug 19 04:34:32 2020
+19-AUG-2020 04:34:32 * service_update * XE * 0
+Wed Aug 19 04:35:32 2020
+19-AUG-2020 04:35:32 * service_update * XE * 0
+Wed Aug 19 04:39:26 2020
+19-AUG-2020 04:39:26 * service_update * XE * 0
+Wed Aug 19 04:44:17 2020
+19-AUG-2020 04:44:17 * service_update * XE * 0
+Wed Aug 19 04:49:26 2020
+19-AUG-2020 04:49:26 * service_update * XE * 0
+Wed Aug 19 04:50:32 2020
+19-AUG-2020 04:50:32 * service_update * XE * 0
+Wed Aug 19 04:54:27 2020
+19-AUG-2020 04:54:27 * service_update * XE * 0
+Wed Aug 19 04:59:18 2020
+19-AUG-2020 04:59:18 * service_update * XE * 0
+19-AUG-2020 04:59:24 * service_update * XE * 0
+19-AUG-2020 04:59:27 * service_update * XE * 0
+Wed Aug 19 05:00:00 2020
+19-AUG-2020 05:00:00 * service_update * XE * 0
+Wed Aug 19 05:00:30 2020
+19-AUG-2020 05:00:30 * service_update * XE * 0
+Wed Aug 19 05:09:28 2020
+19-AUG-2020 05:09:28 * service_update * XE * 0
+Wed Aug 19 05:10:31 2020
+19-AUG-2020 05:10:31 * service_update * XE * 0
+Wed Aug 19 05:14:28 2020
+19-AUG-2020 05:14:28 * service_update * XE * 0
+Wed Aug 19 05:15:01 2020
+19-AUG-2020 05:15:01 * service_update * XE * 0
+Wed Aug 19 05:15:31 2020
+19-AUG-2020 05:15:31 * service_update * XE * 0
+Wed Aug 19 05:19:28 2020
+19-AUG-2020 05:19:28 * service_update * XE * 0
+Wed Aug 19 05:24:32 2020
+19-AUG-2020 05:24:32 * service_update * XE * 0
+Wed Aug 19 05:29:17 2020
+19-AUG-2020 05:29:17 * service_update * XE * 0
+Wed Aug 19 05:29:29 2020
+19-AUG-2020 05:29:29 * service_update * XE * 0
+Wed Aug 19 05:39:29 2020
+19-AUG-2020 05:39:29 * service_update * XE * 0
+Wed Aug 19 05:40:32 2020
+19-AUG-2020 05:40:32 * service_update * XE * 0
+Wed Aug 19 05:49:30 2020
+19-AUG-2020 05:49:30 * service_update * XE * 0
+Wed Aug 19 05:50:30 2020
+19-AUG-2020 05:50:30 * service_update * XE * 0
+Wed Aug 19 05:55:30 2020
+19-AUG-2020 05:55:30 * service_update * XE * 0
+Wed Aug 19 05:59:19 2020
+19-AUG-2020 05:59:19 * service_update * XE * 0
+Wed Aug 19 05:59:31 2020
+19-AUG-2020 05:59:31 * service_update * XE * 0
+Wed Aug 19 06:00:31 2020
+19-AUG-2020 06:00:31 * service_update * XE * 0
+Wed Aug 19 06:05:31 2020
+19-AUG-2020 06:05:31 * service_update * XE * 0
+Wed Aug 19 06:09:31 2020
+19-AUG-2020 06:09:31 * service_update * XE * 0
+Wed Aug 19 06:15:32 2020
+19-AUG-2020 06:15:32 * service_update * XE * 0
+Wed Aug 19 06:16:05 2020
+19-AUG-2020 06:16:05 * service_update * XE * 0
+Wed Aug 19 06:19:32 2020
+19-AUG-2020 06:19:32 * service_update * XE * 0
+Wed Aug 19 06:24:35 2020
+19-AUG-2020 06:24:35 * service_update * XE * 0
+Wed Aug 19 06:29:17 2020
+19-AUG-2020 06:29:17 * service_update * XE * 0
+Wed Aug 19 06:29:32 2020
+19-AUG-2020 06:29:32 * service_update * XE * 0
+Wed Aug 19 06:39:33 2020
+19-AUG-2020 06:39:33 * service_update * XE * 0
+Wed Aug 19 06:40:30 2020
+19-AUG-2020 06:40:30 * service_update * XE * 0
+Wed Aug 19 06:49:34 2020
+19-AUG-2020 06:49:34 * service_update * XE * 0
+Wed Aug 19 06:50:31 2020
+19-AUG-2020 06:50:31 * service_update * XE * 0
+Wed Aug 19 06:55:31 2020
+19-AUG-2020 06:55:31 * service_update * XE * 0
+Wed Aug 19 06:59:19 2020
+19-AUG-2020 06:59:19 * service_update * XE * 0
+Wed Aug 19 06:59:34 2020
+19-AUG-2020 06:59:34 * service_update * XE * 0
+Wed Aug 19 07:00:31 2020
+19-AUG-2020 07:00:31 * service_update * XE * 0
+Wed Aug 19 07:04:40 2020
+19-AUG-2020 07:04:40 * service_update * XE * 0
+Wed Aug 19 07:09:35 2020
+19-AUG-2020 07:09:35 * service_update * XE * 0
+Wed Aug 19 07:15:32 2020
+19-AUG-2020 07:15:32 * service_update * XE * 0
+Wed Aug 19 07:19:17 2020
+19-AUG-2020 07:19:17 * service_update * XE * 0
+Wed Aug 19 07:19:35 2020
+19-AUG-2020 07:19:35 * service_update * XE * 0
+Wed Aug 19 07:24:48 2020
+19-AUG-2020 07:24:48 * service_update * XE * 0
+Wed Aug 19 07:29:18 2020
+19-AUG-2020 07:29:18 * service_update * XE * 0
+Wed Aug 19 07:29:36 2020
+19-AUG-2020 07:29:36 * service_update * XE * 0
+Wed Aug 19 07:30:00 2020
+19-AUG-2020 07:30:00 * service_update * XE * 0
+Wed Aug 19 07:30:33 2020
+19-AUG-2020 07:30:33 * service_update * XE * 0
+Wed Aug 19 07:35:00 2020
+19-AUG-2020 07:35:00 * service_update * XE * 0
+Wed Aug 19 07:35:30 2020
+19-AUG-2020 07:35:30 * service_update * XE * 0
+Wed Aug 19 07:39:37 2020
+19-AUG-2020 07:39:37 * service_update * XE * 0
+Wed Aug 19 07:45:31 2020
+19-AUG-2020 07:45:31 * service_update * XE * 0
+Wed Aug 19 07:49:37 2020
+19-AUG-2020 07:49:37 * service_update * XE * 0
+Wed Aug 19 07:50:31 2020
+19-AUG-2020 07:50:31 * service_update * XE * 0
+Wed Aug 19 07:54:52 2020
+19-AUG-2020 07:54:52 * service_update * XE * 0
+Wed Aug 19 07:59:20 2020
+19-AUG-2020 07:59:20 * service_update * XE * 0
+Wed Aug 19 07:59:38 2020
+19-AUG-2020 07:59:38 * service_update * XE * 0
+Wed Aug 19 08:00:26 2020
+19-AUG-2020 08:00:26 * service_update * XE * 0
+19-AUG-2020 08:00:32 * service_update * XE * 0
+Wed Aug 19 08:05:02 2020
+19-AUG-2020 08:05:02 * service_update * XE * 0
+Wed Aug 19 08:05:32 2020
+19-AUG-2020 08:05:32 * service_update * XE * 0
+Wed Aug 19 08:09:38 2020
+19-AUG-2020 08:09:38 * service_update * XE * 0
+Wed Aug 19 08:15:33 2020
+19-AUG-2020 08:15:33 * service_update * XE * 0
+Wed Aug 19 08:19:39 2020
+19-AUG-2020 08:19:39 * service_update * XE * 0
+Wed Aug 19 08:20:30 2020
+19-AUG-2020 08:20:30 * service_update * XE * 0
+Wed Aug 19 08:25:00 2020
+19-AUG-2020 08:25:00 * service_update * XE * 0
+Wed Aug 19 08:25:30 2020
+19-AUG-2020 08:25:30 * service_update * XE * 0
+Wed Aug 19 08:29:40 2020
+19-AUG-2020 08:29:40 * service_update * XE * 0
+Wed Aug 19 08:30:31 2020
+19-AUG-2020 08:30:31 * service_update * XE * 0
+Wed Aug 19 08:34:58 2020
+19-AUG-2020 08:34:58 * service_update * XE * 0
+Wed Aug 19 15:31:15 2020
+System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_1975_140395931481920.trc
+Trace level is currently 0
+
+Started with pid=1975
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+Listener completed notification to CRS on start
+
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+WARNING: Subscription for node down event still pending
+19-AUG-2020 15:31:15 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+19-AUG-2020 15:31:18 * service_register * XE * 0
+19-AUG-2020 15:31:19 * service_update * XE * 0
+Wed Aug 19 15:31:25 2020
+19-AUG-2020 15:31:25 * service_update * XE * 0
+19-AUG-2020 15:31:29 * service_update * XE * 0
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+19-AUG-2020 15:31:31 * service_update * XE * 0
+19-AUG-2020 15:31:34 * service_update * XE * 0
+Wed Aug 19 15:31:40 2020
+19-AUG-2020 15:31:40 * service_update * XE * 0
+Wed Aug 19 15:32:07 2020
+19-AUG-2020 15:32:07 * service_update * XE * 0
+Wed Aug 19 15:35:01 2020
+19-AUG-2020 15:35:01 * service_update * XE * 0
+Wed Aug 19 15:35:31 2020
+19-AUG-2020 15:35:31 * service_update * XE * 0
+Wed Aug 19 15:40:01 2020
+19-AUG-2020 15:40:01 * service_update * XE * 0
+Wed Aug 19 15:40:32 2020
+19-AUG-2020 15:40:32 * service_update * XE * 0
+Wed Aug 19 15:41:32 2020
+19-AUG-2020 15:41:32 * service_update * XE * 0
+Wed Aug 19 15:50:32 2020
+19-AUG-2020 15:50:32 * service_update * XE * 0
+Wed Aug 19 15:51:23 2020
+19-AUG-2020 15:51:23 * service_update * XE * 0
+19-AUG-2020 15:51:32 * service_update * XE * 0
+Wed Aug 19 15:55:02 2020
+19-AUG-2020 15:55:02 * service_update * XE * 0
+Wed Aug 19 15:55:32 2020
+19-AUG-2020 15:55:32 * service_update * XE * 0
+Wed Aug 19 15:56:32 2020
+19-AUG-2020 15:56:32 * service_update * XE * 0
+Wed Aug 19 16:01:33 2020
+19-AUG-2020 16:01:33 * service_update * XE * 0
+Wed Aug 19 16:05:33 2020
+19-AUG-2020 16:05:33 * service_update * XE * 0
+Wed Aug 19 16:10:03 2020
+19-AUG-2020 16:10:03 * service_update * XE * 0
+Wed Aug 19 16:10:33 2020
+19-AUG-2020 16:10:33 * service_update * XE * 0
+Wed Aug 19 16:11:33 2020
+19-AUG-2020 16:11:33 * service_update * XE * 0
+Thu Aug 20 16:34:27 2020
+System parameter file is /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora
+Log messages written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/alert/log.xml
+Trace information written to /u01/app/oracle/diag/tnslsnr/devops-server1/listener/trace/ora_1983_140356527966016.trc
+Trace level is currently 0
+
+Started with pid=1983
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC_FOR_XE)))
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+Listener completed notification to CRS on start
+
+TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
+WARNING: Subscription for node down event still pending
+20-AUG-2020 16:34:27 * (CONNECT_DATA=(CID=(PROGRAM=)(HOST=devops-server1)(USER=oracle))(COMMAND=status)(ARGUMENTS=64)(SERVICE=LISTENER)(VERSION=186647040)) * status * 0
+Dynamic address is already listened on (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=1521)))
+20-AUG-2020 16:34:29 * service_register * XE * 0
+20-AUG-2020 16:34:31 * service_update * XE * 0
+Thu Aug 20 16:34:37 2020
+20-AUG-2020 16:34:37 * service_update * XE * 0
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=devops-server1.us-central1-a.c.kishore-275306.internal)(PORT=9090))(Presentation=HTTP)(Session=RAW))
+20-AUG-2020 16:34:41 * service_update * XE * 0
+20-AUG-2020 16:34:42 * service_update * XE * 0
+20-AUG-2020 16:34:45 * service_update * XE * 0
+Thu Aug 20 16:34:48 2020
+20-AUG-2020 16:34:48 * service_update * XE * 0
+Thu Aug 20 16:35:18 2020
+20-AUG-2020 16:35:18 * service_update * XE * 0
+Thu Aug 20 16:35:33 2020
+20-AUG-2020 16:35:33 * service_update * XE * 0
+Thu Aug 20 16:40:03 2020
+20-AUG-2020 16:40:03 * service_update * XE * 0
+Thu Aug 20 16:40:33 2020
+20-AUG-2020 16:40:33 * service_update * XE * 0
+Thu Aug 20 16:44:43 2020
+20-AUG-2020 16:44:43 * service_update * XE * 0
+Thu Aug 20 16:50:31 2020
+20-AUG-2020 16:50:31 * service_update * XE * 0
+Thu Aug 20 16:54:34 2020
+20-AUG-2020 16:54:34 * service_update * XE * 0
+20-AUG-2020 16:54:43 * service_update * XE * 0
+Thu Aug 20 16:55:01 2020
+20-AUG-2020 16:55:01 * service_update * XE * 0
+Thu Aug 20 16:55:31 2020
+20-AUG-2020 16:55:31 * service_update * XE * 0

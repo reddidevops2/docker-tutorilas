@@ -1,0 +1,25 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_mmon_4323.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 1
+Oracle process number: 15
+Unix process pid: 4323, image: oracle@devops-server1 (MMON)
+
+
+*** 2020-08-03 15:46:28.245
+*** SESSION ID:(94.1) 2020-08-03 15:46:28.245
+*** CLIENT ID:() 2020-08-03 15:46:28.245
+*** SERVICE NAME:(SYS$BACKGROUND) 2020-08-03 15:46:28.245
+*** MODULE NAME:() 2020-08-03 15:46:28.245
+*** ACTION NAME:() 2020-08-03 15:46:28.245
+ 
+minact-scn master-status: grec-scn:0x0000.00056af6 gmin-scn:0x0000.00056af6 gcalc-scn:0x0000.00056af6
+
+*** 2020-08-03 15:51:32.252
+minact-scn master-status: grec-scn:0x0000.00056d4d gmin-scn:0x0000.00056d4d gcalc-scn:0x0000.00056d4d

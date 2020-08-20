@@ -1,0 +1,110 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_ora_4083.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 19
+Unix process pid: 4083, image: oracle@devops-server1 (TNS V1-V3)
+
+
+*** 2020-08-03 15:45:54.635
+*** SESSION ID:(87.3) 2020-08-03 15:45:54.635
+*** CLIENT ID:() 2020-08-03 15:45:54.635
+*** SERVICE NAME:() 2020-08-03 15:45:54.635
+*** MODULE NAME:(sqlplus@devops-server1 (TNS V1-V3)) 2020-08-03 15:45:54.635
+*** ACTION NAME:() 2020-08-03 15:45:54.635
+ 
+Control file created with size 594 blocks
+
+*** 2020-08-03 15:45:54.682
+Stopping background process MMNL
+
+*** 2020-08-03 15:45:55.682
+Stopping background process MMON
+
+*** 2020-08-03 15:45:56.719
+Prior to RESETLOGS processing...
+ALTER SYSTEM ARCHIVE LOG ALL USING BACKUP CONTROLFILE start
+Database is not in archivelog mode
+ALTER SYSTEM ARCHIVE LOG ALL USING BACKUP CONTROLFILE complete
+DDE rules only execution for: ORA 313
+----- START Event Driven Actions Dump ----
+---- END Event Driven Actions Dump ----
+----- START DDE Actions Dump -----
+Executing SYNC actions
+----- START DDE Action: 'DB_STRUCTURE_INTEGRITY_CHECK' (Async) -----
+Successfully dispatched
+----- END DDE Action: 'DB_STRUCTURE_INTEGRITY_CHECK' (SUCCESS, 0 csec) -----
+Executing ASYNC actions
+----- END DDE Actions Dump (total 0 csec) -----
+ORA-00313: open failed for members of log group 1 of thread 1
+*** 2020-08-03 15:45:56.720 4265 krsh.c
+Clearing online redo logfile 1 /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_1_%u_.log
+DDE: Problem Key 'ORA 313' was flood controlled (0x1) (no incident)
+ORA-00313: open failed for members of log group 1 of thread 1
+ORA-00313: open failed for members of log group 1 of thread 1
+ORA-00313: open failed for members of log group 1 of thread 1
+*** 2020-08-03 15:45:57.050 4265 krsh.c
+Clearing online redo logfile 1 complete
+DDE: Problem Key 'ORA 313' was flood controlled (0x1) (no incident)
+ORA-00313: open failed for members of log group 2 of thread 1
+ORA-00313: open failed for members of log group 2 of thread 1
+*** 2020-08-03 15:45:57.050 4265 krsh.c
+Clearing online redo logfile 2 /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_2_%u_.log
+DDE: Problem Key 'ORA 313' was flood controlled (0x1) (no incident)
+ORA-00313: open failed for members of log group 2 of thread 1
+ORA-00313: open failed for members of log group 2 of thread 1
+ORA-00313: open failed for members of log group 2 of thread 1
+
+*** 2020-08-03 15:45:57.485
+*** 2020-08-03 15:45:57.485 4265 krsh.c
+Clearing online redo logfile 2 complete
+DDE: Problem Key 'ORA 313' was flood controlled (0x1) (no incident)
+ORA-00313: open failed for members of log group 3 of thread 1
+ORA-00313: open failed for members of log group 3 of thread 1
+*** 2020-08-03 15:45:57.485 4265 krsh.c
+Clearing online redo logfile 3 /u01/app/oracle/fast_recovery_area/XE/onlinelog/o1_mf_0_%u_.log
+DDE: Problem Key 'ORA 313' was flood controlled (0x1) (no incident)
+ORA-00313: open failed for members of log group 3 of thread 1
+ORA-00313: open failed for members of log group 3 of thread 1
+ORA-00313: open failed for members of log group 3 of thread 1
+
+*** 2020-08-03 15:45:58.354
+*** 2020-08-03 15:45:58.354 4265 krsh.c
+Clearing online redo logfile 3 complete
+
+*** 2020-08-03 15:45:58.354
+kwqmnich: current time:: 15: 45: 58: 0
+kwqmnich: instance no 0 repartition flag 1 
+kwqmnich: initialized job cache structure 
+kwqinfy: Call kwqrNondurSubInstTsk 
+dglcm: Validating controlfile with logical metadata
+dglcm: Initial controlfile state
+dglcm:   kccdiflg [400000] kccdifl2 [1000]
+dglcm:   kccdi2ldscn [0x0000.00000000]
+dglcm:   kccdi2lrscn [0x0000.00000000]
+dglcm: Inspecting logical metadata
+dglcm: Metadata state
+dglcm:   hasPrepSwitchSta [0]
+dglcm:   hasPrepSwitchPri [0]
+dglcm:   hasReceivedDict [0]
+dglcm:   hasDumpedDict [0]
+dglcm:   hasCommittedBor [0]
+dglcm:   hasSwitchedFromPri [0]
+dglcm:   hasStartedTa [0]
+dglcm:   hasValidSess [0]
+dglcm:   hasTxnConsistency [0]
+dglcm:   hasCleanlyShutdown [0]
+dglcm: Generating new controlfile state from metadata
+dglcm: Updating controlfile with new state
+dglcm: New controlfile state
+dglcm:   kccdiflg [400000] kccdifl2 [1000]
+dglcm:   kccdi2ldscn [0x0000.00000000]
+dglcm:   kccdi2lrscn [0x0000.00000000]
+dglcm: Updating SGA associated with controlfile state
+dglcm: Validation complete

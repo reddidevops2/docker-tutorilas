@@ -1,0 +1,63 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_mmon_2231.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 1
+Oracle process number: 15
+Unix process pid: 2231, image: oracle@devops-server1 (MMON)
+
+
+*** 2020-08-08 02:13:38.147
+*** SESSION ID:(94.1) 2020-08-08 02:13:38.147
+*** CLIENT ID:() 2020-08-08 02:13:38.147
+*** SERVICE NAME:() 2020-08-08 02:13:38.147
+*** MODULE NAME:() 2020-08-08 02:13:38.147
+*** ACTION NAME:() 2020-08-08 02:13:38.147
+ 
+minact-scn master-status: grec-scn:0x0000.00000000 gmin-scn:0x0000.00000000 gcalc-scn:0x0000.00000000
+
+*** 2020-08-08 02:18:39.323
+minact-scn master-status: grec-scn:0x0000.0005f28f gmin-scn:0x0000.0005f28f gcalc-scn:0x0000.0005f28f
+
+*** 2020-08-08 02:23:42.367
+minact-scn master-status: grec-scn:0x0000.0005f310 gmin-scn:0x0000.0005f310 gcalc-scn:0x0000.0005f310
+minact-scn master-status: grec-scn:0x0000.0005f3a4 gmin-scn:0x0000.0005f3a4 gcalc-scn:0x0000.0005f3a4
+
+*** 2020-08-08 02:33:45.459
+minact-scn master-status: grec-scn:0x0000.0005f495 gmin-scn:0x0000.0005f495 gcalc-scn:0x0000.0005f495
+
+*** 2020-08-08 02:38:48.477
+minact-scn master-status: grec-scn:0x0000.0005f521 gmin-scn:0x0000.0005f521 gcalc-scn:0x0000.0005f521
+minact-scn master-status: grec-scn:0x0000.0005f5a4 gmin-scn:0x0000.0005f5a4 gcalc-scn:0x0000.0005f5a4
+
+*** 2020-08-08 02:48:51.557
+minact-scn master-status: grec-scn:0x0000.0005f5ea gmin-scn:0x0000.0005f5ea gcalc-scn:0x0000.0005f5ea
+
+*** 2020-08-08 02:53:54.595
+minact-scn master-status: grec-scn:0x0000.0005f674 gmin-scn:0x0000.0005f674 gcalc-scn:0x0000.0005f674
+minact-scn master-status: grec-scn:0x0000.0005f6f4 gmin-scn:0x0000.0005f6f4 gcalc-scn:0x0000.0005f6f4
+
+*** 2020-08-08 03:03:57.688
+minact-scn master-status: grec-scn:0x0000.0005f760 gmin-scn:0x0000.0005f760 gcalc-scn:0x0000.0005f760
+
+*** 2020-08-08 03:09:00.707
+minact-scn master-status: grec-scn:0x0000.0005f7f4 gmin-scn:0x0000.0005f7f4 gcalc-scn:0x0000.0005f7f4
+minact-scn master-status: grec-scn:0x0000.0005f875 gmin-scn:0x0000.0005f875 gcalc-scn:0x0000.0005f875
+
+*** 2020-08-08 03:19:03.827
+minact-scn master-status: grec-scn:0x0000.0005f8be gmin-scn:0x0000.0005f8be gcalc-scn:0x0000.0005f8be
+
+*** 2020-08-08 03:24:06.880
+minact-scn master-status: grec-scn:0x0000.0005f93f gmin-scn:0x0000.0005f93f gcalc-scn:0x0000.0005f93f
+minact-scn master-status: grec-scn:0x0000.0005f9d9 gmin-scn:0x0000.0005f9d9 gcalc-scn:0x0000.0005f9d9
+
+*** 2020-08-08 03:34:12.970
+minact-scn master-status: grec-scn:0x0000.0005fa25 gmin-scn:0x0000.0005fa25 gcalc-scn:0x0000.0005fa25
+
+*** 2020-08-08 03:39:16.001
+minact-scn master-status: grec-scn:0x0000.0005faa5 gmin-scn:0x0000.0005faa5 gcalc-scn:0x0000.0005faa5

@@ -1,0 +1,23 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_j003_2361.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 1
+Oracle process number: 28
+Unix process pid: 2361, image: oracle@devops-server1 (J003)
+
+
+*** 2020-08-19 15:31:35.145
+*** SESSION ID:(15.3) 2020-08-19 15:31:35.146
+*** CLIENT ID:() 2020-08-19 15:31:35.146
+*** SERVICE NAME:(SYS$USERS) 2020-08-19 15:31:35.146
+*** MODULE NAME:(DBMS_SCHEDULER) 2020-08-19 15:31:35.146
+*** ACTION NAME:(PURGE_LOG) 2020-08-19 15:31:35.146
+ 
+purge queue_table SYS.SCHEDULER_FILEWATCHER_QT
+purge queue_table SYS.SCHEDULER$_EVENT_QTAB

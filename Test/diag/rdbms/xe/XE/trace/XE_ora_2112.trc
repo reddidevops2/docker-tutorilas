@@ -1,0 +1,22 @@
+Trace file /u01/app/oracle/diag/rdbms/xe/XE/trace/XE_ora_2112.trc
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/xe
+System name:	Linux
+Node name:	devops-server1
+Release:	3.10.0-1127.13.1.el7.x86_64
+Version:	#1 SMP Tue Jun 23 15:46:38 UTC 2020
+Machine:	x86_64
+Instance name: XE
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 0
+Unix process pid: 2112, image: oracle@devops-server1
+
+
+*** 2020-08-10 15:34:20.431
+kcrfwy: minimum sleep is 89 usecs (overhead is 57 usecs)
+Running with 1 strand for Non-Enterprise Edition
+Running without dynamic strands for Non-Enterprise Edition
+*** SESSION ID:(87.1) 2020-08-10 15:34:21.205
+*** SERVICE NAME:() 2020-08-10 15:34:21.205
+ 
+DBRM(kskinitrm): cpu_count = 2
