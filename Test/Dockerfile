@@ -8,4 +8,5 @@ ADD https://downloads.apache.org/tomcat/tomcat-10/v10.0.0-M7/bin/apache-tomcat-1
 ENV JAVA_HOME  /opt/java8251
 ADD java.tar.gz /opt/
 WORKDIR /opt/
-RUN tar -xzvf java.tar.gz
+RUN tar -xzvf java.tar.gz\
+    rm -rf *.gz
