@@ -9,4 +9,4 @@ ADD https://downloads.apache.org/tomcat/tomcat-10/v10.0.0-M7/bin/apache-tomcat-1
 #ADD java.tar.gz /opt/
 WORKDIR /opt/
 #RUN tar -xzvf java.tar.gz\
-    rm -rf *.gz
+#   rm -rf *.gz
